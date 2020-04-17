@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Particles from 'react-particles-js'
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"
+import ScrollAnimation from 'react-animate-on-scroll'
 
 class Homepage extends Component {
     render() {
@@ -60,9 +61,11 @@ class Homepage extends Component {
                         }
                 }} />
                 <div className="text-content">
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={3}>
                     <h1>Hi, I am <span>Danny Chen</span>.</h1>
                     <h1>I am a web developer and competitive programmer.</h1>
                     <Link to="about" spy={true} smooth={true} offset={-70} duration={500}><button type="button" className="more-button">View my works <i className="fa fa-arrow-down"></i></button></Link>
+                    </ScrollAnimation>
                 </div>
             </div>
         )
