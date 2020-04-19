@@ -3,9 +3,10 @@
   position: sticky;
   top: 0px;
   width: 100%;
-  height: 55px;
+  height: 68px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  border-bottom: 3px solid #00acee;
 }
 
 .nav .nav-content {
@@ -18,19 +19,22 @@
   height: 100%;
 }
 
-.nav .nav-content .nav-items .nav-item {
+.nav-item {
   display: inline;
   margin: 20px;
   color: white;
+  transition: 0.3s ease all;
 }
 
-.nav-item:hover {
-  color: blue;
+.nav-items .nav-item:hover {
+  color: #00acee;
   cursor: pointer;
+  transition: 0.3s ease all;
 }
 
 .nav-item > .active {
-  border-bottom: 1px solid white;
+  color: #00acee;
+  transition: 0.3s ease all;
 }
 
 .homepage-container {
@@ -47,7 +51,7 @@
 }
 
 .homepage-container span {
-  color: pink;
+  color: #00acee;
 }
 
 .homepage-container .text-content {
@@ -75,8 +79,10 @@
 }
 
 .homepage-container .more-button:hover {
+  color: white;
   cursor: pointer;
-  background: pink;
+  background: #00acee;
+  border: 3px solid #00acee;
   transition: 0.3s ease;
 }
 
@@ -88,7 +94,18 @@
 .about-title {
   text-align: center;
   color: black;
-  font-size: 30px;
+  font-size: 55px;
+}
+
+.characteristics-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1;
+  grid-gap: 10px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .about-pic-skills-container {
@@ -100,20 +117,41 @@
 }
 
 .about-picture {
-  margin: 30px 25%;
   grid-row: 1;
   grid-column: 1;
   width: 300px;
   height: auto;
-  border: 5px solid black;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
 }
 
+.about-pic-skills-container a {
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+  padding: 1em 2.5em;
+  border: 3px solid black;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.about-pic-skills-container a:hover {
+  color: white;
+  background: #00acee;
+  border: 3px solid #00acee;
+  transition: 0.3s ease;
+}
 
 .skills {
   grid-row: 1;
   grid-column: 2;
   margin: 0;
-  padding: 20px;
+  padding: 0;
   width: calc(100% - 50px);
 }
 .skills li {
@@ -145,18 +183,47 @@
 }
 
 .about-bio {
-  /*
-  grid-row: 3;
-  grid-column: 1;
-  */
   font-size: 21px;
   padding: 30px;
 }
 
+.projects-container {
+  padding: 30px;
+  background: #888;
+}
+
+.projects-title {
+  text-align: center;
+  color: black;
+  font-size: 55px;
+}
+
 .contact-container {
   text-align: center;
-  background: #444;
+  background: #060917;
   padding: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  text-align: center;
+  color: #474747;
+  font-size: 4em;
+  transition: all 0.5s ease;
+  padding: 8px;
+}
+
+.social-links i:hover {
+  color: white;
+  text-shadow: 0 0 15px white;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {

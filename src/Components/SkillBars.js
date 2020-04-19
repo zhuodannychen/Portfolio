@@ -7,26 +7,18 @@ class SkillBars extends React.Component {
       this.state = { collapsed: true };       
       this.onChange = this.onChange.bind(this)
     }
-    
-    /*
-    componentDidMount() {
-        setTimeout(() => {
-        this.setState({ collapsed: false })
-      }, 1000);
-      
-    }
-    */
+
     onChange(isVisible) {
       if (isVisible) {
         setTimeout(() => {
           this.setState({ collapsed: false })
-        }, 400);
+        }, 50);
       }
     }
 
     render() {
       const { collapsed } = this.state;
-      const { hue, saturation, skills } = this.props;
+      const { hue, saturation, light, skills } = this.props;
   
       return(
         <div>
@@ -36,7 +28,7 @@ class SkillBars extends React.Component {
                 {skills.map((skill, index) => 
                   <li
                     key={skill.type}
-                    style={{ width: `${skill.level}%`, backgroundColor: `hsl(${hue}, ${saturation}%, ${100 / (index + 3.5) }%)` }}
+                    style={{ width: `${skill.level}%`, backgroundColor: `hsl(${hue}, ${saturation}%, ${light}%)` }}
                   >
                     <p>{skill.type}<span>{skill.level}%</span></p>
                   </li>
@@ -45,7 +37,6 @@ class SkillBars extends React.Component {
             </div>
         </VizSensor>
         </div>
-        
       )
     }
   }
