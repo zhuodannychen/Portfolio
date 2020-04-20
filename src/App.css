@@ -39,9 +39,18 @@
 
 .homepage-container {
   height: 100vh;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*
+  background: #0F2027;
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+  */
+  /*
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
+*/
+background-color: #2b4162;
+background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+
   text-align: center;
   padding: 10px;
 }
@@ -86,7 +95,7 @@
   transition: 0.3s ease;
 }
 
-.about-grid {
+.about-container {
   padding: 30px;
   background: #FAFAFA;
 }
@@ -95,6 +104,7 @@
   text-align: center;
   color: black;
   font-size: 55px;
+  margin-bottom: 0;
 }
 
 .characteristics-container {
@@ -188,7 +198,7 @@
 }
 
 .projects-container {
-  padding: 30px;
+  padding-top: 30px;
   background: #888;
 }
 
@@ -196,33 +206,68 @@
   text-align: center;
   color: black;
   font-size: 55px;
+  margin-bottom: 0;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 90px;
 }
 
 .contact-container {
   text-align: center;
-  background: #060917;
-  padding: 20px;
+  background-color: #1b1b1c;
+  padding-top: 30px;
+}
+
+footer {
+  background: black;
+  border-top: 3px solid #00acee;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-button {
+  font-size: 40px;
+  width: 200px;
+  height: 50px;
+  margin: 60px;
+  padding: 0;
+  border: 3px solid white;
+  color: white;
+  background: transparent;
+  transition: 0.3s ease;
+}
+
+.footer-button:hover {
+  color: white;
+  cursor: pointer;
+  background: #00acee;
+  border: 3px solid #00acee;
+  transition: 0.3s ease;
 }
 
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 30%;
   margin: auto;
+  background: black;
 }
 
 .social-links i {
   text-align: center;
-  color: #474747;
+  color: white;
   font-size: 4em;
   transition: all 0.5s ease;
   padding: 8px;
 }
 
 .social-links i:hover {
-  color: white;
-  text-shadow: 0 0 15px white;
-  transition: all 0.5s ease;
+  color: #00acee;
+  text-shadow: 0 0 1px white;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 

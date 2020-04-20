@@ -21,11 +21,13 @@ class About extends Component {
   render() {
     return (
       <div className="about-container" id={this.props.id}>
-        <div className="about-grid">
-            <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                <h1 className="about-title">ABOUT</h1>
-            </ScrollAnimation>
-
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
+            <h1 className="about-title">ABOUT</h1>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
+            <hr style={{width: "5%", border: "3px solid black", marginBottom: "100px"}}></hr>
+        </ScrollAnimation>
+{/*
             <div className="characteristics-container">
             <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5}>
                 <i style={{fontSize: "30px"}} className="fa fa-star"></i>
@@ -40,7 +42,7 @@ class About extends Component {
                 <i style={{fontSize: "30px"}} className="fa fa-star"></i>
             </ScrollAnimation>
             </div>
-
+*/}
             <div className="about-pic-skills-container">
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5} offset={500}>
                     <div style={{textAlign: "center", alignItems: "center"}}>
@@ -73,7 +75,6 @@ class About extends Component {
                     </p>
                 </div>
             </ScrollAnimation>
-        </div>
       </div>
     )
   }
