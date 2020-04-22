@@ -6,7 +6,7 @@ class Projects extends Component {
         return (
             <div className="projects-container" id={this.props.id}>
                 <h1 className="projects-title">PROJECTS</h1>
-                <hr style={{width: "10%", border: "3px solid black"}}></hr>
+                <hr style={{width: "10%", border: "1.5px solid black"}}></hr>
 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" preserveAspectRatio="none">
                     <polygon points="100,0 100,20 50,20"

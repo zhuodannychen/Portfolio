@@ -8,15 +8,15 @@ class Contact extends Component {
         return (
             <div className="contact-container" id={this.props.id}>
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                    <h1 style={{color: "white", fontSize: "55px", marginBottom: "0"}}>CONTACT</h1>
+                    <h1 className="contact-title" style={{color: "white", fontSize: "55px", marginBottom: "0"}}>CONTACT</h1>
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                    <hr style={{width: "10%", border: "3px solid white", marginBottom: "100px"}}></hr>
+                    <hr style={{width: "10%", border: "1.5px solid white", marginBottom: "100px"}}></hr>
                 </ScrollAnimation>
-                <h1 style={{color: "white", fontSize: "25px"}}>What's on your mind?</h1>
-                <h3 style={{color: "white", fontSize: "25px"}}>Email: <a style={{color: "#00acee"}} href="mailto:zhuodannychen@gmail.com">zhuodannychen@gmail.com</a></h3>
-                <h3 style={{color: "white", fontSize: "25px"}}>Codeforces: <a style={{color: "#00acee"}} href="https://codeforces.com/profile/zhuodannychen" target="_blank">zhuodannychen</a></h3>
+                <h1 style={{color: "white", fontSize: "25px", fontFamily: 'Work Sans'}}>What's on your mind?</h1>
+                <h3 style={{color: "white", fontSize: "25px", fontFamily: 'Work Sans'}}>Email: <a style={{color: "#00acee"}} href="mailto:zhuodannychen@gmail.com">zhuodannychen@gmail.com</a></h3>
+                <h3 style={{color: "white", fontSize: "25px", fontFamily: 'Work Sans'}}>Codeforces: <a style={{color: "#00acee"}} href="https://codeforces.com/profile/zhuodannychen" target="_blank">zhuodannychen</a></h3>
                 <Link to="home" spy={true} smooth={true} offset={-70} duration={500}><button type="button" className="footer-button"><i className="fa fa-angle-double-up"></i></button></Link>
 
                 <footer>
