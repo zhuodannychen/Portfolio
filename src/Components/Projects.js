@@ -11,6 +11,7 @@ class Projects extends Component {
                     <ProjectContainer 
                     project_name="Timeline" 
                     project_date="March 2020" 
+                    madeWith="HTML, CSS, JavaScript"
                     project_img="https://dficlub.org/wp-content/uploads/2019/09/dcfdsdf.jpg"
                     project_body="This is my first project, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel malesuada mi. Integer ac turpis tempus sapien tempor viverra sit amet et velit. Donec laoreet risus id magna molestie porttitor. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras tincidunt arcu risus, eu mattis dui vehicula id. Etiam vitae nisi eget nisl tempus condimentum vitae eleifend leo. Nulla volutpat arcu id neque gravida, id viverra tellus lacinia. Sed at feugiat tellus. Etiam hendrerit pulvinar diam, vitae facilisis risus dapibus eu. Nullam sed rutrum nisi."
 
@@ -33,10 +34,10 @@ class Projects extends Component {
                     />
                 </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" preserveAspectRatio="none">
-                    <polygon points="100,0 100,20 50,20"
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+                    <polygon points="100,0 100,10 50,10"
                     style={{fill: "#1b1b1c"}} />
-                    <polygon points="0,0 0,20 50,20"
+                    <polygon points="0,0 0,10 50,10"
                     style={{fill: "#1b1b1c"}} />
                 </svg>
             </div>

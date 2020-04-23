@@ -24,7 +24,7 @@
   margin: 20px;
   color: white;
   transition: 0.3s ease all;
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Muli', sans-serif;*/
 }
@@ -116,10 +116,6 @@ background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 }
 
 .characteristics-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1;
-  grid-gap: 10px;
   width: 100%;
   text-align: center;
   align-items: center;
@@ -221,17 +217,62 @@ background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   text-transform: uppercase;
 }
 
+ 
 .project-comp-title {
+  margin-left: 50px;
   font-family: 'Muli', sans-serif;
   font-size: 30px;
 }
 
-.project-comp-img {
-  padding: 0 50px;
+.project-comp-title span {
+  color: grey;
+  font-size: 22px;
 }
 
-.project-comp-links {
-  font-size: 25px;
+.project-comp-madeWith {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: grey;
+  margin-left: 50px;
+}
+
+.project-comp-img {
+  margin: 0 50px;
+  height: 350px;
+  width: 350px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.project-comp-text {
+  margin-right: 70px;
+  font-size: 22px;
+}
+
+.project-comp-links a {
+  font-family: 'Muli', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  margin-left: 20px;
+}
+
+.project-comp-links a:hover {
+  background: #00acee;
+  transition: 0.3s ease;
+  color: white;
+  border: 1px solid #00acee;
+}
+
+.separator {
+  opacity: 0;
+  margin-bottom: 30vh;
 }
 
 svg {
@@ -243,13 +284,17 @@ svg {
 .contact-container {
   text-align: center;
   background-color: #1b1b1c;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .contact-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.contact-text {
+  font-size: 25px;
 }
 
 footer {
@@ -295,6 +340,10 @@ footer {
   padding: 8px;
 }
 
+.social-links .file-icon {
+  font-size: 55px;
+}
+
 .social-links i:hover {
   color: #00acee;
   text-shadow: 0 0 1px white;
@@ -303,6 +352,10 @@ footer {
 }
 
 @media screen and (max-width: 850px) {
+  .nav-item {
+    font-size: 11px;
+    margin: 6px;
+  }
   .homepage-container .text-content {
     padding-top: 80px;
   } 
@@ -312,7 +365,94 @@ footer {
   }
 
   .homepage-container .more-button {
-    font-size: 15px;
-    width: 155px;
+    font-size: 13px;
+    width: 165px;
   }
+
+  .about-pic-skills-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+  }  
+
+  .skills {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .skills li p {
+    font-size: 8px;
+  }
+  .skills li span {
+    font-size: 5px;
+  }
+
+  .about-bio {
+    padding: 9px;
+    font-size: 15px;
+  }
+
+  .project-comp-title {
+    margin-left: 20px;
+  }
+
+  .project-comp-title span {
+    color: grey;
+    font-size: 15px;
+  } 
+
+  .project-comp-madeWith {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .project-comp-img {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+  }
+
+  .project-comp-text {
+    font-size: 15px;
+    margin: 20px;
+    padding-top: 18px;
+  }
+
+  .separator {
+    margin-bottom: 12vh;
+  }
+
+  .contact-text {
+    font-size: 15px;
+  }
+
+  .social-links {
+    width: 80%;
+    margin: auto;
+    background: black;
+  }
+
+  .social-links i {
+    font-size: 2em;
+  }
+
+  .social-links .file-icon {
+    font-size: 1.6em;
+  }
+
+  .about-title {
+    font-size: 40px;
+  }
+
+  .projects-title {
+    font-size: 40px;
+  }
+
+  .contact-container {
+    padding: 1px;
+  }
+  .contact-title {
+    font-size: 40px;
+  }
+
 }
