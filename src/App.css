@@ -25,7 +25,8 @@
   color: white;
   transition: 0.3s ease all;
   font-size: 17px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Muli', sans-serif;*/
 }
 
 .nav-items .nav-item:hover {
@@ -207,7 +208,7 @@ background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 
 .projects-container {
   padding-top: 30px;
-  background: #888;
+  background: #EFEFEF;
 }
 
 .projects-title {
@@ -218,6 +219,19 @@ background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.project-comp-title {
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+}
+
+.project-comp-img {
+  padding: 0 50px;
+}
+
+.project-comp-links {
+  font-size: 25px;
 }
 
 svg {
