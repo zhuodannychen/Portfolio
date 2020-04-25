@@ -25,7 +25,7 @@ class About extends Component {
             <h1 className="about-title">ABOUT</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-            <hr style={{width: "5%", border: "1.5px solid black", marginBottom: "100px"}}></hr>
+            <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "100px"}}></hr>
         </ScrollAnimation>
 {/*
             <div className="characteristics-container">
@@ -58,7 +58,7 @@ class About extends Component {
                 </ScrollAnimation>
                 
             </div>
-            <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5}>
+            <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5}>
                 <div className="about-bio">
                     <p>
                         Hello, my name is Zhuo (Danny) Chen, and I am a student at Plano West Senior High. 

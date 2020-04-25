@@ -146,18 +146,21 @@ background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
   grid-column: 1;
   text-align: center;
   align-items: center;
-  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
   color: black;
-  padding: 1em 2.5em;
-  border: 3px solid black;
   text-decoration: none;
+  opacity: 0.8;
+  border: 1px solid black;
+  padding: 10px 33px;
+  border-radius: 25px;
   transition: 0.3s ease;
 }
 
 .about-pic-skills-container a:hover {
   color: white;
   background: #00acee;
-  border: 3px solid #00acee;
+  border: 1px solid #00acee;
   transition: 0.3s ease;
 }
 
@@ -327,7 +330,7 @@ footer {
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 50%;
   margin: auto;
   background: black;
 }
