@@ -14,7 +14,7 @@ class ProjectContainer extends Component {
 
                 <div className="project-comp-container">
                     <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
-                        <img className="project-comp-img" style={{float: "left"}} src={this.props.project_img} />
+                        <img alt="project-img" className="project-comp-img" style={{float: "left"}} src={this.props.project_img} />
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5}>
                         <p className="project-comp-text">{this.props.project_body}</p>
