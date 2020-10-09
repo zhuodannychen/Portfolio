@@ -5,7 +5,7 @@ class ProjectContainer extends Component {
     render() {
         return (
             <div>
-                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5}>
                     <div>
                         <p className="project-comp-title">{this.props.project_name} <span>{this.props.project_date}</span></p>
                         <p className="project-comp-madeWith">{this.props.madeWith}</p>
@@ -18,10 +18,10 @@ class ProjectContainer extends Component {
                 
 
                 <div className="project-comp-container">
-                    <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1.5}>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5}>
                         <img alt="project-img" className="project-comp-img" style={{float: "left"}} src={this.props.project_img} />
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5}>
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true} duration={1.5}>
                         <p className="project-comp-text">{this.props.project_body}</p>
                     </ScrollAnimation>
                 </div>
