@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link, animateScroll as scroll } from "react-scroll";
-import Resume from '../Assets/Zhuo_Chen_s_Resume.pdf'
+import Resume from '../Assets/zhuo_chen_resume.pdf'
 
 class Navbar extends Component {
     scrollToTop = () => {
