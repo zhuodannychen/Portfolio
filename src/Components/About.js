@@ -5,17 +5,17 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import SkillBar from 'react-skillbars';
 
 const SKILLS = [
-    {type: "Python", level: 90},
-    {type: "Java", level: 85},
-    {type: "C++", level: 50},
+    {type: "Python", level: 95},
+    {type: "C++", level: 90},
+    {type: "Java", level: 90},
     {type: "JavaScript", level: 40},
-    {type: "Vim", level: 80},
+    {type: "Haskell", level: 60},
+    {type: "Vim", level: 85},
     {type: "HTML", level: 90},
     {type: "CSS", level: 90},
     {type: "ReactJS", level: 60},
-    {type: "VueJS", level: 40},
     {type: "NodeJS", level: 50},
-    {type: "PyTorch", level: 25},
+    {type: "Tensorflow", level: 25},
   ]
 
 class About extends Component {
@@ -46,7 +46,7 @@ class About extends Component {
                     <div style={{textAlign: "center", alignItems: "center"}}>
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
-                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! I'm Zhuo (Danny) Chen, an undergrad at Texas A&M studying computer science.
+                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi!👋 I'm Zhuo (Danny) Chen, an undergrad at Texas A&M studying computer science.
                     I'm very passionate about learning, teaching, and just creating things in general (like this website). <br />
                     My interest in the field of Computer Science includes artificial intelligence, web development, and competitive programming.
                     Other than CS, I enjoy investing, breakdancing, and solving the Rubik's Cube, with a personal best time of 14.68 seconds.
