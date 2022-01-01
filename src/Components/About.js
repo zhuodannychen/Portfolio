@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AboutPortrait from '../Assets/danny1_4_16_2020.jpg'
+import AboutPortrait from '../Assets/danny_4_26_2021_s.jpg'
 //import SkillBar from './SkillBars'
 import ScrollAnimation from 'react-animate-on-scroll'
 import SkillBar from 'react-skillbars';

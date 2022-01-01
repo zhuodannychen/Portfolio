@@ -137,10 +137,11 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 .about-picture {
   grid-row: 1;
   grid-column: 1;
-  width: 200px;
+  width: 300px;
   height: auto;
   margin-top: 10px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  border-radius: 50%;
   border: 1px solid grey;
   box-shadow: 5px 5px 5px grey;
 }
