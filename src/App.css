@@ -44,6 +44,21 @@
   transition: 0.3s ease all;
 }
 
+.alinks {
+    color: white;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+}
+
+.alinks:hover {
+  text-decoration: none;
+  color: #00acee;
+  cursor: pointer;
+}
+
 .homepage-container {
   height: 100vh;
   /*
@@ -342,8 +357,8 @@ footer {
     color: white;
 }
 
-.facebook {
-    background: #3b5998;
+.instagram {
+    background: #bc2a8d;
 }
 .linkedin{
   background: #007bb5;

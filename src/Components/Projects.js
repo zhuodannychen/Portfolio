@@ -25,14 +25,14 @@ class Projects extends Component {
                     />
 
                     <ProjectContainer 
-                        project_name="CLearn" 
+                        project_name="Chinesepedia" 
                         project_date="July 2020" 
                         madeWith="MongoDB, ExpressJS, ReactJS, NodeJS"
                         project_img={ChineseWord}
                         project_body="As I read more Chinese Novels, I realized I was only able to recognize 98% of the characters, so I decided
-                        to learn more Chinese characters. CLearn allows the user to keep track of your progress on the most common 5000 Chinese characters."
-                        github_link="https://github.com/zhuodannychen/Algorithms"
-                        demo_link="http://chenlearn.herokuapp.com/"
+                        to learn more Chinese characters. Chinesepedia allows the user to keep track of their progress on the most common 5000 Chinese characters."
+                        github_link="https://github.com/zhuodannychen/chinesepedia"
+                        demo_link="https://chinesepedia.herokuapp.com/"
                     />
 
                     <ProjectContainer 

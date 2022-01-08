@@ -17,6 +17,7 @@ class Navbar extends Component {
                         <li className='nav-item'><Link activeClass="active" to="experiences" spy={true} smooth={true} offset={-70} duration={500}>EXPERIENCES</Link></li>
                         <li className='nav-item'><Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>PROJECTS</Link></li>
                         <li className='nav-item'><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link></li>
+                        <li className='nav-item'><a className='alinks' href="notes">NOTES</a></li>
                         <a style={{textDecoration: "none"}} className='nav-item' href={Resume} rel="noopener noreferrer" target="_blank">RESUME</a>
                     </ul>
                 </div>

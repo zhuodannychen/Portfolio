@@ -20,15 +20,18 @@ class Experiences extends Component {
                         icon=""
                     >
                         <h3 className="vertical-timeline-element-title" style={{margin: "15px 0"}}>B.S. Computer Science</h3>
+                        <h3 className="vertical-timeline-element-title" style={{margin: "15px 0"}}>Minor in Economics</h3>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999"}}>Texas A&M</h6>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999", marginBottom: "15px"}}>College Station, TX</h6>
-                        <li style={{margin: "3px"}}>Organizations: Aggie Coding Club, Aggie Competitive Programming Club</li>
+                        <li style={{margin: "3px"}}>GPA: 4.0/4.0</li>
+                        <li style={{margin: "3px"}}>Organizations: Aggie Competitive Programming Club, Aggie Coding Club</li>
                         <li style={{margin: "3px"}}>
                             Relevant Course Work
                             <ul>
-                                <li>Linear Algebra</li>
-                                <li>Multivariable Calculus</li>
-                                <li>Discrete Structures for Computing</li>
+                                <li>Data Structures & Algorithms</li>
+                                <li>Programming Languages</li>
+                                <li>Computer Organization</li>
+                                <li>Discrete Math</li>
                             </ul>
                         </li>
                     </VerticalTimelineElement>
@@ -43,10 +46,9 @@ class Experiences extends Component {
                         <h3 className="vertical-timeline-element-title" style={{margin: "15px 0"}}>Project Manager, Full-Stack Developer</h3>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999"}}>Aggie Coding Club</h6>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999", marginBottom: "15px"}}>College Station, TX</h6>
-                        <li style={{margin: "3px"}}>Created a web application that notifies students when filled courses are available during class registration,saving time and maximizing the chance for students to get a filled course</li>
-                        <li style={{margin: "3px"}}>Delegated project tasks and roles to 17 members based on individual strength and interest</li>
-                        <li style={{margin: "3px"}}>Tracked project performance to analyze the completion of short and long-term plans</li>
-                        <li style={{margin: "3px"}}>Developed using MongoDB, ExpressJS, ReactJS, NodeJS, and Python</li>
+                        <li style={{margin: "3px"}}>Led a MERN stack application to notify students when filled courses are available during class registration</li>
+                        <li style={{margin: "3px"}}>Determined the project scope and delegated tasks to 17 members; worked on frontend, database management, email sender, and data integration</li>
+                        <li style={{margin: "3px"}}>Reduced the class search time by 100% and maximized the probability to get a filled course</li>
                     </VerticalTimelineElement>
 
                     <VerticalTimelineElement
@@ -59,8 +61,8 @@ class Experiences extends Component {
                         <h3 className="vertical-timeline-element-title" style={{margin: "15px 0"}}>High School</h3>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999"}}>Plano West Senior High</h6>
                         <h6 className="vertical-timeline-element-subtitle" style={{color: "#999", marginBottom: "15px"}}>Plano, TX</h6>
-                        <li style={{margin: "3px"}}>Summa Cum Laude</li>
-                        <li style={{margin: "3px"}}>AP Scholar with Distinction.</li>
+                        <li style={{margin: "3px"}}>GPA: 4.32, Summa Cum Laude</li>
+                        <li style={{margin: "3px"}}>AP Scholar with Distinction</li>
                         <li style={{margin: "3px"}}>Organizations: Computer Science Club, Artificial Intelligence Club, Robotics Club</li>
                     </VerticalTimelineElement>
 
