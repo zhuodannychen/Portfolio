@@ -274,7 +274,7 @@ svg {
 .contact-container {
   text-align: center;
   background-color: #1b1b1c;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .contact-title {
@@ -287,11 +287,28 @@ svg {
   font-size: 25px;
 }
 
+.notes-container {
+    padding-top: 30px;
+    background: #FAFAFA;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes-col {
+    margin: 0 5%;
+}
+
+.notes-col span {
+    color: gray;
+}
+
 footer {
   background: black;
   border-top: 3px solid #00acee;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: auto;
 }
 
 .footerButton {
@@ -317,7 +334,7 @@ footer {
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 30%;
   margin: auto;
   background: black;
 }

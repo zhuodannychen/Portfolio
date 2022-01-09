@@ -8,6 +8,7 @@ import Projects from "./Projects"
 import Contact from "./Contact"
 import SubNavbar from "./SubNavbar"
 import Notes from "./Notes"
+import Footer from "./Footer"
 
 class Main extends Component {
     render() {
@@ -21,6 +22,7 @@ class Main extends Component {
                         <About id="about"/>
                         <Experiences id="experiences"/>
                         <Projects id="projects"/>
+                        <Contact id="contact"/>
                     </Route>
 
                     <Route path="/notes" >
@@ -29,7 +31,7 @@ class Main extends Component {
                     </Route>
                     </Switch>
                 </BrowserRouter>
-                <Contact id="contact"/>
+                <Footer />
             </div>
         )
     }
