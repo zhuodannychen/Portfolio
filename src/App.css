@@ -299,8 +299,12 @@ svg {
     margin: 0 5%;
 }
 
+.notes-col a {
+    font-size: 20px;
+}
+
 .notes-col span {
-    color: gray;
+    color: #7d7d7d;
 }
 
 footer {

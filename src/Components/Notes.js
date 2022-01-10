@@ -10,19 +10,19 @@ class Notes extends Component {
         <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "60px"}}/>
         <div className="row">
             <div className="notes-col col-sm ">
-                <h4>Tech</h4>
+                <h3>Tech</h3>
                 <ul>
                     <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a> ... <span>December 2020</span></li>
-                    <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a> ... <span>December 2020</span></li>
+                    <li><a href={InvestingTerminologyNotes} target="blank">WInvesting notes</a> ... <span>December 2020</span></li>
                 </ul>
             </div>
             <div className="notes-col col-sm ">
-                <h4>Finance</h4>
+                <h3>Finance</h3>
                 <ul>
                     <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a></li>
                     <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a></li>
                 </ul>
-                <h4>Social</h4>
+                <h3>Books</h3>
             </div>
         </div>
       </div>
