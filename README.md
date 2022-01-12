@@ -1,3 +1,3 @@
-# [Check it out!](https://zhuodannychen.github.io/Portfolio)
+# [dannychen.me](https://dannychen.me)
 
 yarn deploy
