@@ -5,8 +5,8 @@ class SubNavbar extends Component {
         return (
             <nav className='nav' id='navbar'>
                 <div className='nav-content'>
-                    <ul className='nav-items'>
-                        <li className='nav-item'><a className='alinks' href="/">BACK TO HOME</a></li>
+                    <ul style={{margin: 0, listStyleType: "none"}} className='nav-items'>
+                        <li style={{margin: 0}} className='nav-itm'><a className='alinks' href="/">BACK TO HOME</a></li>
                     </ul>
                 </div>
             </nav>

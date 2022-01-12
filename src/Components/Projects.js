@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import ProjectContainer from './ProjectContainer'
 // import ScrollAnimation from 'react-animate-on-scroll'
-import PWSHInvitational from '../Assets/pwsh_invitational.png'
-import StockImage from '../Assets/stock.png'
-import ChineseWord from '../Assets/chinese_calligraphy.jpeg'
+import PWSHInvitational from '../Assets/Projects/pwsh_invitational.png'
+import StockImage from '../Assets/Projects/stock.png'
+import ChineseWord from '../Assets/Projects/chinese_calligraphy.jpeg'
 
 class Projects extends Component {
     render() {

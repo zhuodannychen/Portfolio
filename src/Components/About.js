@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AboutPortrait from '../Assets/danny_4_26_2021_s.jpg'
+import AboutPortrait from '../Assets/Profiles/danny_4_26_2021_s.jpg'
 //import SkillBar from './SkillBars'
 import ScrollAnimation from 'react-animate-on-scroll'
 import SkillBar from 'react-skillbars';
@@ -46,7 +46,7 @@ class About extends Component {
                     <div style={{textAlign: "center", alignItems: "center"}}>
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
-                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! <span role="img" aria-label="wave">👋</span> I'm Zhuo (Danny) Chen, an undergrad at Texas A&M studying computer science.
+                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
                     I'm very passionate about learning, teaching, and just creating things in general (like this website). <br />
                     My interest in the field of Computer Science includes artificial intelligence, software development, and competitive programming.
                     Other than CS, I enjoy trading, working out, breakdancing, and solving the Rubik's Cube, with a personal best time of 14.68 seconds.

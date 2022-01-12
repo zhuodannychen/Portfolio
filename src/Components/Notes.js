@@ -13,6 +13,7 @@ class Notes extends Component {
             <div className="notes-col col-sm ">
                 <h3>Tech</h3>
                 <ul>
+                    <li>Still in progress...</li>
                     {/* <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a> ... <span>December 2020</span></li>
                     <li><a href={InvestingTerminologyNotes} target="blank">WInvesting notes</a> ... <span>December 2020</span></li> */}
                 </ul>
