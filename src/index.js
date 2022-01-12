@@ -13,8 +13,9 @@ ReactDOM.render(
 );
 
 try {
+    console.log(process.env.REACT_APP_GOOGLE_ANALYTICS)
     setTimeout(_ => {
-        const ga4react = new GA4React("G-C52WW6J2BG");
+        const ga4react = new GA4React(process.env.REACT_APP_GOOGLE_ANALYTICS);
         ga4react.initialize().catch(err => console.error(err));
     }, 4000);
 } catch (err) {

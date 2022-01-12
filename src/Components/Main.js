@@ -15,7 +15,7 @@ class Main extends Component {
     render() {
         return (
             <div className="body">
-                <BrowserRouter>
+                <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
                     <Switch>
                     <Route path="/" exact>
                         {/* <Navbar /> */}
