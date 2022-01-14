@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 // import Navbar from "./Navbar"
 import SmallNavbar from './SmallNavbar';
 import SubNavbar from "./SubNavbar"
@@ -15,7 +15,7 @@ class Main extends Component {
     render() {
         return (
             <div className="body">
-                <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+                <HashRouter >
                     <Switch>
                     <Route path="/" exact>
                         {/* <Navbar /> */}
@@ -32,7 +32,7 @@ class Main extends Component {
                         <Notes />
                     </Route>
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
                 <Footer />
             </div>
         )

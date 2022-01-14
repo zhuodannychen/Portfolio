@@ -3,6 +3,10 @@ import React, { Component } from "react";
 
 
 class Notes extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="notes-container container-fluid" id={this.props.id}>
