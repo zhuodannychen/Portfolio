@@ -20,9 +20,10 @@ const SmallNavbar = props => {
       <li className='nav-itm'><Link activeClass="active" to="home" spy={true} smooth={true} offset={-72} duration={500}>HOME</Link></li>
         <li className='nav-itm'><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>ABOUT</Link></li>
         <li className='nav-itm'><Link activeClass="active" to="experiences" spy={true} smooth={true} offset={-70} duration={500}>EXPERIENCES</Link></li>
+        <li className='nav-itm'><Link activeClass="active" to="notes" spy={true} smooth={true} offset={-70} duration={500}>NOTES</Link></li>
         <li className='nav-itm'><Link activeClass="active" to="projects" spy={true} smooth={true} offset={-70} duration={500}>PROJECTS</Link></li>
         <li className='nav-itm'><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link></li>
-        <li className='nav-itm'><a className='alinks' href="#/notes">NOTES</a></li>
+        {/* <li className='nav-itm'><a className='alinks' href="#/notes">NOTES</a></li> */}
         <a style={{textDecoration: "none"}} className='nav-itm' href={Resume} rel="noopener noreferrer" target="_blank">RESUME</a>
       </div>
     </nav>

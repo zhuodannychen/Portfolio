@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import Navbar from "./Navbar"
 import SmallNavbar from './SmallNavbar';
-import SubNavbar from "./SubNavbar"
 import Homepage from "./Homepage"
 import About from "./About"
 import Experiences from "./Experiences"
@@ -15,7 +14,7 @@ class Main extends Component {
     render() {
         return (
             <div className="body">
-                <HashRouter >
+                <BrowserRouter >
                     <Switch>
                     <Route path="/" exact>
                         {/* <Navbar /> */}
@@ -23,16 +22,17 @@ class Main extends Component {
                         <Homepage id="home"/>
                         <About id="about"/>
                         <Experiences id="experiences"/>
+                        <Notes id="notes"/>
                         <Projects id="projects"/>
                         <Contact id="contact"/>
                     </Route>
 
-                    <Route path="/notes" >
+                    {/* <Route path="/notes" >
                         <SubNavbar />
                         <Notes />
-                    </Route>
+                    </Route> */}
                     </Switch>
-                </HashRouter>
+                </BrowserRouter>
                 <Footer />
             </div>
         )

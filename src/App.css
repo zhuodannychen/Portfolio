@@ -199,7 +199,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 
 .projects-container {
   padding-top: 30px;
-  background: #FAFAFA;
+  background: #EFEFEF;
 }
 
 
@@ -385,22 +385,6 @@ footer {
 
 .social-links i {
     color: white;
-}
-
-.instagram {
-    background: #bc2a8d;
-}
-.linkedin{
-  background: #007bb5;
-}
-.youtube{
-  background: #bb0000;
-}
-.github{
-  background: #6e5494;
-}
-.envelope{
-  background: #ff5700;
 }
 
 @media screen and (max-width: 850px) {
