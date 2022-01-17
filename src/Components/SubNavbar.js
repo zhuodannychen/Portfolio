@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class SubNavbar extends Component {
     render() {
@@ -6,7 +7,7 @@ class SubNavbar extends Component {
             <nav className='nav' id='navbar'>
                 <div className='nav-content'>
                     <ul style={{margin: 0, listStyleType: "none"}} className='nav-items'>
-                        <li style={{margin: 0}} className='nav-itm'><a className='alinks' href="/">BACK TO HOME</a></li>
+                        <li style={{margin: 0}} className='nav-itm'><Link className='alinks' to="/">BACK TO HOME</Link></li>
                     </ul>
                 </div>
             </nav>
