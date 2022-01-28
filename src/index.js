@@ -13,7 +13,6 @@ ReactDOM.render(
 );
 
 try {
-    console.log(process.env.REACT_APP_GOOGLE_ANALYTICS)
     setTimeout(_ => {
         const ga4react = new GA4React(process.env.REACT_APP_GOOGLE_ANALYTICS);
         ga4react.initialize().catch(err => console.error(err));

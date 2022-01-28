@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-// import InvestingTerminologyNotes from "../Assets/Notes/Investing_Terminology_Notes.pdf"
+import { Books, Tech } from "./Writings/notes_list.js"
+import { Link } from "react-router-dom";
 
+const bookList = Books.map((note) => 
+    <li key={note["path"]}><Link to={note["path"]}>{note["title"]}</Link> ... <span>{note["date"]}</span></li>
+)
+const techList = Tech.map((note) => 
+    <li key={note["path"]}><Link to={note["path"]}>{note["title"]}</Link> ... <span>{note["date"]}</span></li>
+)
 
 class Notes extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
   }
+
 
   render() {
     return (
@@ -15,23 +23,18 @@ class Notes extends Component {
         <h5 style={{margin: "0 5% 40px 5%"}}>Notes from good things I have read.</h5> 
         <div className="row">
             <div className="notes-col col-sm ">
-                <h3>Tech</h3>
-                <ul>
-                    <li>Still in progress...</li>
-                    {/* <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a> ... <span>December 2020</span></li>
-                    <li><a href={InvestingTerminologyNotes} target="blank">WInvesting notes</a> ... <span>December 2020</span></li> */}
-                </ul>
+                <h3>Books</h3>
+                <ul>{bookList}</ul>
             </div>
             <div className="notes-col col-sm ">
-                {/* <h3>Finance</h3>
-                <ul>
-                    <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a></li>
-                    <li><a href={InvestingTerminologyNotes} target="blank">Investing notes</a></li>
-                </ul>
-                <h3>Books</h3> */}
+                <h3>Tech</h3>
+                <ul>{techList}</ul>
+                <h3>Finance</h3>
+                <ul>{techList}</ul>
             </div>
         </div>
-      </div>
+        
+        </div>
     )
   }
 }
