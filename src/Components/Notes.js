@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import { Books, Tech } from "./Writings/notes_list.js"
-import { Link } from "react-router-dom";
+import { Books, Tech, Finance } from "./Writings/notes_list.js"
 
 const bookList = Books.map((note) => 
-    <li key={note["path"]}><Link to={note["path"]}>{note["title"]}</Link> ... <span>{note["date"]}</span></li>
+    <li key={note["link"]}><a href={note["link"]}>{note["title"]}</a> ... <span>{note["date"]}</span></li>
 )
 const techList = Tech.map((note) => 
-    <li key={note["path"]}><Link to={note["path"]}>{note["title"]}</Link> ... <span>{note["date"]}</span></li>
+    <li key={note["link"]}><a href={note["link"]}>{note["title"]}</a> ... <span>{note["date"]}</span></li>
+)
+
+const financeList = Finance.map((note) => 
+    <li key={note["link"]}><a href={note["link"]}>{note["title"]}</a> ... <span>{note["date"]}</span></li>
 )
 
 class Notes extends Component {
@@ -20,7 +23,7 @@ class Notes extends Component {
       <div className="notes-container container-fluid" id={this.props.id}>
         <h1 className="projects-title">Notes</h1>
         <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "25px"}}/>
-        <h5 style={{margin: "0 5% 40px 5%"}}>Notes from good things I have read.</h5> 
+        {/* <h5 style={{margin: "0 5% 40px 5%"}}>Notes from good things I have read.</h5>  */}
         <div className="row">
             <div className="notes-col col-sm ">
                 <h3>Books</h3>
@@ -30,11 +33,11 @@ class Notes extends Component {
                 <h3>Tech</h3>
                 <ul>{techList}</ul>
                 <h3>Finance</h3>
-                <ul>{techList}</ul>
+                <ul>{financeList}</ul>
             </div>
         </div>
         
-        </div>
+      </div>
     )
   }
 }

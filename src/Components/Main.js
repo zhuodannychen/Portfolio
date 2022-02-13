@@ -11,16 +11,17 @@ import Contact from "./Contact"
 import Notes from "./Notes"
 import Footer from "./Footer"
 
-import NoteRender from "./NoteRender.js";
-import { Books, Tech } from "./Writings/notes_list.js"
+// import NoteRender from "./NoteRender.js";
+// import { Books, Tech } from "./Writings/notes_list.js"
 
 const { PUBLIC_URL } = process.env;
-const bookRoutes = Books.map((note) => 
-    <Route key={note["path"]} path={note["path"]}><NoteRender note={note["content"]}/></Route>
-)
-const techRoutes = Tech.map((note) => 
-    <Route key={note["path"]} path={note["path"]}><NoteRender note={note["content"]}/></Route>
-)
+
+// const bookRoutes = Books.map((note) => 
+//     <Route key={note["path"]} path={note["path"]}><NoteRender note={note["content"]}/></Route>
+// )
+// const techRoutes = Tech.map((note) => 
+//     <Route key={note["path"]} path={note["path"]}><NoteRender note={note["content"]}/></Route>
+// )
 
 class Main extends Component {
     render() {
@@ -45,8 +46,8 @@ class Main extends Component {
                         <Notes />
                         <Footer />
                     </Route>
-                    {bookRoutes}
-                    {techRoutes}
+                    {/* {bookRoutes}
+                    {techRoutes} */}
                     {/* consider adding 404 route */}
                     </Switch>
                 </BrowserRouter>
