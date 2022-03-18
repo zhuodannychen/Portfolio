@@ -11,8 +11,6 @@ const SKILLS = [
     {type: "JavaScript", level: 40},
     {type: "Haskell", level: 60},
     {type: "Vim", level: 85},
-    {type: "HTML", level: 90},
-    {type: "CSS", level: 90},
     {type: "ReactJS", level: 60},
     {type: "NodeJS", level: 50},
     {type: "Tensorflow", level: 25},
@@ -47,14 +45,22 @@ class About extends Component {
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
                     <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
-                    I'm very passionate about learning, teaching, and just creating things in general (like this website). <br />
-                    My interest in the field of Computer Science includes artificial intelligence, software development, and competitive programming.
-                    Other than CS, I enjoy trading, working out, breakdancing, and solving the Rubik's Cube, with a personal best time of 14.68 seconds.
+                    I'm very passionate about learning, teaching, and just creating things in general (like this website). 
+                    I also like to write and take notes on interesting things I read. You can check out the "Notes" section in the navigation bar.<br />
+                    My interest in the field of Computer Science includes artificial intelligence, software development, web3, and competitive programming.
+                    Other than CS, I enjoy trading, working out, cooking, and dancing.
                     </p>
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5} offset={500}>
                     <SkillBar skills={SKILLS} height={25} animationDelay={1000} animationDuration={2000} offset={0} colors={{bar: "#26acc9", title: {text: "white", background: "#24a1bd"}}}/>
+                    <h4>Fun Facts</h4>
+                    <ul>
+                        <li>I am from Shenzhen, China.</li>
+                        <li>I studied in 4 different elementaries, in 3 different languages, but now I can only speak 2.</li>
+                        <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... I was too lazy to remove it and now I'm fluent with Vim.</li>
+                        <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
+                    </ul>
                 </ScrollAnimation>
                 {/*
                 <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1.5} offset={500}>
