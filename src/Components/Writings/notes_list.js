@@ -7,7 +7,7 @@ export const Books = [
      "date": "December 2021",
      "link": "https://zhuodannychen.notion.site/Zero-To-One-3a0ea2b6c7e84a6da2e9de3533780574"
     },
-    {"title": "Life 3.0: Being Human in the Age of Artificial Intelligence",
+    {"title": "Life 3.0: Being Human in the Age of Artificial Intelligence by Max Tegmark",
      "date": "October 2021",
      "link": "https://zhuodannychen.notion.site/Life-3-0-Being-Human-in-the-Age-of-Artificial-Intelligence-a43bb9d2540e44d785ead8f83e72d595"
     },
@@ -22,7 +22,7 @@ export const Books = [
 ]
 
 export const Tech = [
-    {"title": "Crypto, Web3, and Decentralization",
+    {"title": "Crypto and Decentralization",
      "date": "January 2022",
      "link": "https://zhuodannychen.notion.site/Crypto-Web3-and-Decentralization-c837f961374b4160821a12c9d6e8b740"
     },    
@@ -37,7 +37,7 @@ export const Tech = [
 ]
 
 export const Finance = [
-    {"title": "Financial Markets by Robert Shiller",
+    {"title": "Financial Markets (Coursera) by Robert Shiller",
      "date": "December 2021",
      "link": "https://zhuodannychen.notion.site/Financial-Markets-06b5b1b767e94d01b130e9c9e4f72b43"
     },
@@ -45,7 +45,7 @@ export const Finance = [
      "date": "December 2021",
      "link": "https://zhuodannychen.notion.site/Personal-Finance-28a48d33869d4d6ba937005ba5290b7f"
     },
-    {"title": "Capital Markets from Investopedia",
+    {"title": "Capital Markets",
      "date": "November 2021",
      "link": "https://zhuodannychen.notion.site/Capital-Markets-00edf6056bce4d77bab070cc52b18126"
     }
