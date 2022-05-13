@@ -29,9 +29,11 @@ class Experiences extends Component {
                             Relevant Course Work
                             <ul>
                                 <li>Data Structures & Algorithms</li>
-                                <li>Programming Languages</li>
+                                <li>Analysis of Algorithms</li>
+                                <li>Computer Systems</li>
                                 <li>Computer Organization</li>
                                 <li>Discrete Math</li>
+                                <li>Linear Algebra</li>
                             </ul>
                         </li>
                     </VerticalTimelineElement>

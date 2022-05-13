@@ -22,9 +22,13 @@ export const Books = [
 ]
 
 export const Tech = [
-    {"title": "Crypto and Decentralization",
+    {"title": "Intro to Computer Systems Part I",
      "date": "January 2022",
-     "link": "https://zhuodannychen.notion.site/Crypto-Web3-and-Decentralization-c837f961374b4160821a12c9d6e8b740"
+     "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-I-c574781f3282438781de40c83152f01b"
+    },    
+    {"title": "Intro to Computer Systems Part II",
+     "date": "January 2022",
+     "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-II-0225cf51be914c47a30185bbf88f6e3b"
     },    
     {"title": "Automated Trading by Max Dama",
      "date": "December 2021",
@@ -33,7 +37,11 @@ export const Tech = [
     {"title": "Advanced Python from GeeksforGeeks",
      "date": "November 2021",
      "link": "https://zhuodannychen.notion.site/Advanced-Python-5660fabc5b8341d1b34b8106753c164e"
-    }
+    },
+    {"title": "Competitive Programming Solutions",
+     "date": "September 2019",
+     "link": "https://github.com/zhuodannychen/Competitive-Programming"
+    }    
 ]
 
 export const Finance = [

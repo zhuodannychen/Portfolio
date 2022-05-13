@@ -35,17 +35,17 @@ class Main extends Component {
                         <Homepage id="home"/>
                         <About id="about"/>
                         <Experiences id="experiences"/>
-                        {/* <Notes id="notes"/> */}
+                        <Notes id="notes"/>
                         <Projects id="projects"/>
                         <Contact id="contact"/>
                         <Footer />
                     </Route>
 
-                    <Route path="/notes" >
+                    {/* <Route path="/notes" >
                         <SubNavbar />
                         <Notes />
                         <Footer />
-                    </Route>
+                    </Route> */}
                     {/* {bookRoutes}
                     {techRoutes} */}
                     {/* consider adding 404 route */}

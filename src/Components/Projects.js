@@ -8,7 +8,7 @@ import ChineseWord from '../Assets/Projects/chinese_calligraphy.jpeg'
 class Projects extends Component {
     render() {
         return (
-            <div className="projects-container" id={this.props.id}>
+            <div className="projects-container" id={this.props.id} style={{background: "#EFEFEF"}}>
                 <h1 className="projects-title">PROJECTS</h1>
                 <hr style={{width: "93px", border: "1.5px solid black"}}></hr>
 

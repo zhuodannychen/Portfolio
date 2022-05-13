@@ -46,9 +46,9 @@ class About extends Component {
                     </div>
                     <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
                     I'm very passionate about learning, teaching, and just creating things in general (like this website). 
-                    I also like to write and take notes on interesting things I read. You can check out the "Notes" section in the navigation bar.<br />
-                    My interest in the field of Computer Science includes artificial intelligence, software development, web3, and competitive programming.
-                    Other than CS, I enjoy trading, working out, cooking, and dancing.
+                    <br />
+                    My interest in the field of Computer Science includes artificial intelligence, software development, and competitive programming.
+                    Other than CS, I enjoy reading about technological trends, trading, working out, and cooking.
                     </p>
                 </ScrollAnimation>
 
@@ -57,7 +57,7 @@ class About extends Component {
                     <h4>Fun Facts</h4>
                     <ul>
                         <li>I studied in 4 different elementaries, in 3 different languages, but now I can only speak 2.</li>
-                        <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... I was too lazy to remove it and now I'm fluent with Vim.</li>
+                        <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I'm fluent with Vim.</li>
                         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
                     </ul>
                 </ScrollAnimation>
