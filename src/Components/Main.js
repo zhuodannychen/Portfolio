@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import Navbar from "./Navbar"
 import SmallNavbar from './SmallNavbar';
-import SubNavbar from './SubNavbar';
+// import SubNavbar from './SubNavbar';
 import Homepage from "./Homepage"
 import About from "./About"
 import Experiences from "./Experiences"

@@ -44,11 +44,13 @@ class About extends Component {
                     <div style={{textAlign: "center", alignItems: "center"}}>
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
-                    <p className="about-bio" style={{textAlign: "center", fontFamily: "'Open Sans', sans-serif"}}>Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
-                    I'm very passionate about learning, teaching, and just creating things in general (like this website). 
-                    <br />
-                    My interest in the field of Computer Science includes artificial intelligence, software development, and competitive programming.
-                    Other than CS, I enjoy reading about technological trends, trading, working out, and cooking.
+                    <p className="about-bio" style={{fontFamily: "'Open Sans', sans-serif"}}>
+                        Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
+                        I'm very passionate about learning, teaching, and just creating things in general (like this website). 
+                        <br />
+                        <br />
+                        My interest in the field of computer science includes artificial intelligence, software development, and competitive programming.
+                        Other than CS, I enjoy reading about technological trends, trading, working out, and cooking.
                     </p>
                 </ScrollAnimation>
 
