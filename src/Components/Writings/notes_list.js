@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "价值 by 张磊",
+     "date": "May 2022",
+     "link": "https://zhuodannychen.notion.site/42e3d7eb71cc4d6eab9d9c3cf3e91e63"
+    },
     {"title": "How to Win Friends and Influence People by Dale Carnegie",
      "date": "January 2022",
      "link": "https://zhuodannychen.notion.site/How-to-Win-Friends-and-Influence-People-f6300ceb8cbd4036b3edd37fbbdbf75c"
@@ -22,13 +26,13 @@ export const Books = [
 ]
 
 export const Tech = [
+    {"title": "Intro to Computer Systems Part II",
+     "date": "April 2022",
+     "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-II-0225cf51be914c47a30185bbf88f6e3b"
+    },    
     {"title": "Intro to Computer Systems Part I",
      "date": "January 2022",
      "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-I-c574781f3282438781de40c83152f01b"
-    },    
-    {"title": "Intro to Computer Systems Part II",
-     "date": "January 2022",
-     "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-II-0225cf51be914c47a30185bbf88f6e3b"
     },    
     {"title": "Automated Trading by Max Dama",
      "date": "December 2021",
