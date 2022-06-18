@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "When Genius Failed by Roger Lowenstein",
+     "date": "June 2022",
+     "link": "https://zhuodannychen.notion.site/When-Genius-Failed-61cdb715640443699b9ed6f351e895ea"
+    },
     {"title": "价值 by 张磊",
      "date": "May 2022",
      "link": "https://zhuodannychen.notion.site/42e3d7eb71cc4d6eab9d9c3cf3e91e63"
