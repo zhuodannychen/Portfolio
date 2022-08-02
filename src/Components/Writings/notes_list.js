@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "Thinking, Fast and Slow by Daniel Kahneman",
+     "date": "July 2022",
+     "link": "https://zhuodannychen.notion.site/Thinking-Fast-and-Slow-4f2932d535a241bfa7f17c2b91b24d9e"
+    },
     {"title": "When Genius Failed by Roger Lowenstein",
      "date": "June 2022",
      "link": "https://zhuodannychen.notion.site/When-Genius-Failed-61cdb715640443699b9ed6f351e895ea"

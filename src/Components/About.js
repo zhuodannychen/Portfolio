@@ -58,7 +58,8 @@ class About extends Component {
                     <SkillBar skills={SKILLS} height={25} animationDelay={1000} animationDuration={2000} offset={0} colors={{bar: "#26acc9", title: {text: "white", background: "#24a1bd"}}}/>
                     <h4>Fun Facts</h4>
                     <ul>
-                        <li>I studied in 4 different elementaries, in 3 different languages, but now I can only speak 2.</li>
+                        
+                        <li>Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Paris <i className="fa fa-arrow-right" aria-hidden="true"/> Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Texas</li>
                         <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I'm fluent with Vim.</li>
                         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
                     </ul>
