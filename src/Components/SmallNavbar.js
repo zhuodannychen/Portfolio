@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-scroll";
 // import { Link as ELink } from "react-router-dom";
-import Resume from '../Assets/Resumes/zhuo_chen_resume.pdf'
+import Resume from '../Assets/Resumes/zhuo_chen_resume_09_01_2022.pdf'
 
 const SmallNavbar = props => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);

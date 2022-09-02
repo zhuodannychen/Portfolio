@@ -40,6 +40,21 @@ class Experiences extends Component {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
+                        date="June 2022 - August 2022"
+                        contentStyle={{ borderTop: '3px solid #26acc9' }}
+                        iconStyle={{ background: '#26acc9', color: '#FAFAFA' }}
+                        icon=""
+                    >
+                        <h3 className="vertical-timeline-element-title" style={{margin: "15px 0"}}>Software Engineer Intern</h3>
+                        <h6 className="vertical-timeline-element-subtitle" style={{color: "#999"}}>Capital One</h6>
+                        <h6 className="vertical-timeline-element-subtitle" style={{color: "#999", marginBottom: "15px"}}>Plano, TX</h6>
+                        <li style={{margin: "3px"}}>Developed machine learning algorithms such as decision trees to identify hot leads out of 150K+ leads generated monthly</li>
+                        <li style={{margin: "3px"}}>Performed feature extraction using information gain and tuned model with cross validation to increase successful sales by 20%</li>
+                        <li style={{margin: "3px"}}>Designed architecture and created API endpoints; implemented a serverless design using AWS Lambda, Flask, RDS, and Bonsai (MaaS)</li>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
                         date="September 2020 - Present"
                         contentStyle={{ borderTop: '3px solid #26acc9' }}
                         iconStyle={{ background: '#26acc9', color: '#FAFAFA' }}
