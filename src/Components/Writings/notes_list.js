@@ -34,6 +34,18 @@ export const Books = [
 ]
 
 export const Tech = [
+    {"title": "Networks & Distributed Processing Part II",
+     "date": "October 2022",
+     "link": "https://zhuodannychen.notion.site/CSCE-463-Networks-Distributed-Processing-Part-2-97a2e38548c446599ea9f08d95a16527"
+    },    
+    {"title": "Networks & Distributed Processing Part I",
+     "date": "August 2022",
+     "link": "https://zhuodannychen.notion.site/CSCE-463-Networks-Distributed-Processing-80b94e6d23764a6cb07fa02ff403349c"
+    },    
+    {"title": "Artificial Intelligence",
+     "date": "August 2022",
+     "link": "https://zhuodannychen.notion.site/CSCE-420-Artificial-Intelligence-ee5c1c127e4b41f68b7846bdfc610bea"
+    },    
     {"title": "Intro to Computer Systems Part II",
      "date": "April 2022",
      "link": "https://zhuodannychen.notion.site/CSCE-313-Intro-to-Computer-Systems-Part-II-0225cf51be914c47a30185bbf88f6e3b"
@@ -65,7 +77,7 @@ export const Finance = [
      "date": "December 2021",
      "link": "https://zhuodannychen.notion.site/Personal-Finance-28a48d33869d4d6ba937005ba5290b7f"
     },
-    {"title": "Capital Markets",
+    {"title": "Financial Markets",
      "date": "November 2021",
      "link": "https://zhuodannychen.notion.site/Capital-Markets-00edf6056bce4d77bab070cc52b18126"
     }
