@@ -21,11 +21,14 @@ class Notes extends Component {
   render() {
     return (
       <div className="notes-container container-fluid" id={this.props.id}>
-        <h1 className="projects-title">Notes</h1>
+        <h1 className="projects-title">Writings</h1>
         <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "25px"}}/>
         {/* <h5 style={{margin: "0 5% 40px 5%"}}>Notes from good things I have read.</h5>  */}
         <div className="row">
             <div className="notes-col col-sm ">
+                <h3>Blog</h3>
+                <ul><li>I sometimes blog on <a href="https://dannychen.substack.com/">substack</a></li></ul>
+
                 <h3>Books</h3>
                 <ul>{bookList}</ul>
             </div>

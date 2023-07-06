@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "Rich Dad Poor Dad by Robert Kiyosaki",
+     "date": "January 2023",
+     "link": "https://zhuodannychen.notion.site/Rich-Dad-Poor-Dad-b822d16402c044239baf84c2215ae862?pvs=4"
+    },
     {"title": "Thinking, Fast and Slow by Daniel Kahneman",
      "date": "July 2022",
      "link": "https://zhuodannychen.notion.site/Thinking-Fast-and-Slow-4f2932d535a241bfa7f17c2b91b24d9e"
@@ -34,6 +38,14 @@ export const Books = [
 ]
 
 export const Tech = [
+    {"title": "Foundation & Application of Blockchains",
+     "date": "January 2023",
+     "link": "https://zhuodannychen.notion.site/CSCE-489-Foundations-Applications-of-Blockchains-00bdb6eb8437439cb72d13e928287247?pvs=4"
+    },    
+    {"title": "Machine Learning",
+     "date": "January 2023",
+     "link": "https://zhuodannychen.notion.site/CSCE-633-Machine-Learning-d68e501f84ab4581b0a7e134f3f0ccac?pvs=4"
+    },    
     {"title": "Networks & Distributed Processing Part II",
      "date": "October 2022",
      "link": "https://zhuodannychen.notion.site/CSCE-463-Networks-Distributed-Processing-Part-2-97a2e38548c446599ea9f08d95a16527"

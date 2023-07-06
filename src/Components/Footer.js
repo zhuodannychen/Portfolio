@@ -77,7 +77,7 @@ class Footer extends Component {
                             </div>
                         </ScrollAnimation>
                     </div>
-                    <p style={{color: "white", padding: "10px"}}>Zhuo Chen <span style={{color: "#00acee"}}><i className="fa fa-copyright"></i>2020</span></p>
+                    <p style={{color: "white", padding: "10px"}}>Zhuo Chen <span style={{color: "#00acee"}}><i className="fa fa-copyright"></i>2020-2023</span></p>
                 </footer>
             </div>
         )
