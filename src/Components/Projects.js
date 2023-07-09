@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import ProjectContainer from './ProjectContainer'
 // import ScrollAnimation from 'react-animate-on-scroll'
-import PWSHInvitational from '../Assets/Projects/pwsh_invitational.png'
-import StockImage from '../Assets/Projects/stock.png'
-import ChineseWord from '../Assets/Projects/chinese_calligraphy.jpeg'
+import { AllProjects } from './Writings/projects.js'
 
 class Projects extends Component {
     render() {
@@ -14,37 +12,18 @@ class Projects extends Component {
 
                 <div className="container">
                     <hr className="separator"/>
-                    <ProjectContainer 
-                        project_name="StockBot" 
-                        project_date="September 2020" 
-                        madeWith="Python, Tensorflow"
-                        project_img={StockImage}
-                        project_body="Financial illiteracy is an increasingly problem among college students. A discord bot
-                        can allow easier communication and sharing of resources to learn more about the market."
-                        github_link="https://github.com/zhuodannychen/StockBot"
-                    />
 
-                    <ProjectContainer 
-                        project_name="Chinesepedia" 
-                        project_date="July 2020" 
-                        madeWith="MongoDB, ExpressJS, ReactJS, NodeJS"
-                        project_img={ChineseWord}
-                        project_body="As I read more Chinese Novels, I realized I was only able to recognize 98% of the characters, so I decided
-                        to learn more Chinese characters. Chinesepedia allows the user to keep track of their progress on the most common 5000 Chinese characters."
-                        github_link="https://github.com/zhuodannychen/chinesepedia"
-                        demo_link="https://chinesepedia.herokuapp.com/"
-                    />
-
-                    <ProjectContainer 
-                        project_name="Plano West Wolf Invitational" 
-                        project_date="February 2020" 
-                        madeWith="Java, Python, LaTeX"
-                        project_img={PWSHInvitational}
-                        project_body="A Valentine themed competitive programming
-                        contest on Hackerrank. Along with the PWSH CS club, I assisted with creating problems, solutions, and managing the event."
-                        github_link="https://github.com/zhuodannychen/Competitive-Programming/tree/master/Hackerrank/Plano-West-Wolf-Invitational-Contest/2020"
-                        demo_link="https://www.hackerrank.com/plano-west-wolf-invitational-advanced-2020"
-                    />
+                    {AllProjects.map(project =>
+                        <ProjectContainer
+                            project_name={project['title']}
+                            project_date={project['date']}
+                            madeWith={project['tools']}
+                            project_img={project['img']}
+                            project_body={project['desc']}
+                            github_link={project['github']}
+                            demo_link={project['demo_link']}
+                        />
+                    )}
                 </div>
 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
