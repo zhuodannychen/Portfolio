@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/static/css/main.1d8965de.chunk.css",
-    "main.js": "/static/js/main.09ff5ed1.chunk.js",
-    "main.js.map": "/static/js/main.09ff5ed1.chunk.js.map",
+    "main.js": "/static/js/main.444c7bb0.chunk.js",
+    "main.js.map": "/static/js/main.444c7bb0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.49805d7e.chunk.js": "/static/js/2.49805d7e.chunk.js",
-    "static/js/2.49805d7e.chunk.js.map": "/static/js/2.49805d7e.chunk.js.map",
+    "static/js/2.1bc74453.chunk.js": "/static/js/2.1bc74453.chunk.js",
+    "static/js/2.1bc74453.chunk.js.map": "/static/js/2.1bc74453.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af4d566e6cd693b26ac5fc9a44459430.js": "/precache-manifest.af4d566e6cd693b26ac5fc9a44459430.js",
+    "precache-manifest.fbf116759107b2e4071cf44c40e3167f.js": "/precache-manifest.fbf116759107b2e4071cf44c40e3167f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/static/css/2.ac1ab58b.chunk.css.map",
     "static/css/main.1d8965de.chunk.css.map": "/static/css/main.1d8965de.chunk.css.map",
-    "static/js/2.49805d7e.chunk.js.LICENSE.txt": "/static/js/2.49805d7e.chunk.js.LICENSE.txt",
-    "static/media/chinese_calligraphy.jpeg": "/static/media/chinese_calligraphy.8df1775b.jpeg",
-    "static/media/danny_4_26_2021_s.jpg": "/static/media/danny_4_26_2021_s.1716df68.jpg",
+    "static/js/2.1bc74453.chunk.js.LICENSE.txt": "/static/js/2.1bc74453.chunk.js.LICENSE.txt",
+    "static/media/danny_chen_2022.png": "/static/media/danny_chen_2022.cf8f9bbf.png",
     "static/media/pwsh_invitational.png": "/static/media/pwsh_invitational.ec9bc58f.png",
+    "static/media/sports.webp": "/static/media/sports.6d5f8675.webp",
     "static/media/stock.png": "/static/media/stock.59abab78.png",
     "static/media/zhuo_chen_resume_09_01_2022.pdf": "/static/media/zhuo_chen_resume_09_01_2022.56f5d1c7.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
     "static/css/2.ac1ab58b.chunk.css",
-    "static/js/2.49805d7e.chunk.js",
+    "static/js/2.1bc74453.chunk.js",
     "static/css/main.1d8965de.chunk.css",
-    "static/js/main.09ff5ed1.chunk.js"
+    "static/js/main.444c7bb0.chunk.js"
   ]
 }
