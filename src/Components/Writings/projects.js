@@ -1,13 +1,22 @@
 import PWSHInvitational from '../../Assets/Projects/pwsh_invitational.png'
 import StockImage from '../../Assets/Projects/stock.png'
+import Sports from '../../Assets/Projects/sports.webp'
 
 export const AllProjects = [
+    {
+        "title": "NFT Sports Pass",
+        "date": "January 2023",
+        "tools": "Solidity, Hardhat",
+        "img": Sports,
+        "desc": "The TAMU sports pass is a seasonal ticket that gives access to all home football games. We built a digital version of the sports pass using NFTs and its corresponding marketplace with smart contracts.",
+        "github": "https://github.com/tamublockchain/revpass",
+    },
     {
         "title": "StockBot",
         "date": "September 2020",
         "tools": "Python, Tensorflow",
         "img": StockImage,
-        "desc": "Financial illiteracy is an increasingly problem among college students. A discord bot can allow easier communication and sharing of resources to learn more about the market.",
+        "desc": "A very basic discord bot that allows you to view stock prices, news, and charts.",
         "github": "https://github.com/zhuodannychen/StockBot",
     },
     {

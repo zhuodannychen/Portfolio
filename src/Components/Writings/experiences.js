@@ -5,7 +5,7 @@ export const AllExperiences = [
         "date": "August 2023 - Present",
         "location": "Mountain View, CA",
         "facts": [
-            "I like coding"
+            "Coding monkey"
         ]
     },
     {
