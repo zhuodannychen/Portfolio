@@ -81,6 +81,10 @@ export const Tech = [
 ]
 
 export const Finance = [
+    {"title": "Crypto Regulation by Miles Jennings",
+     "date": "November 2023",
+     "link": `${process.env.PUBLIC_URL}/notes/crypto-regulation.pdf`
+    },
     {"title": "Financial Markets (Coursera) by Robert Shiller",
      "date": "December 2021",
      "link": "https://zhuodannychen.notion.site/Financial-Markets-06b5b1b767e94d01b130e9c9e4f72b43"
