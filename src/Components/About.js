@@ -28,7 +28,7 @@ class About extends Component {
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
                     <p className="about-bio" style={{fontFamily: "'Open Sans', sans-serif"}}>
-                        Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), an undergrad at Texas A&M studying computer science.
+                        Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), a grad student at Carnegie Mellon studying software engineering.
                         I'm very passionate about learning, teaching, and just creating things in general (like this website). 
                         <br />
                         <br />
@@ -42,7 +42,7 @@ class About extends Component {
                     <h4>Fun Facts</h4>
                     <ul>
                         
-                        <li>Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Paris <i className="fa fa-arrow-right" aria-hidden="true"/> Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Dallas <i className="fa fa-arrow-right" aria-hidden="true"/> Silicon Valley</li>
+                        <li>Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Paris <i className="fa fa-arrow-right" aria-hidden="true"/> Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Dallas <i className="fa fa-arrow-right" aria-hidden="true"/> College Station <i className="fa fa-arrow-right" aria-hidden="true"/> Silicon Valley</li>
                         <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I breathe Vim.</li>
                         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
                     </ul>

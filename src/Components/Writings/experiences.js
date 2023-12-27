@@ -5,7 +5,7 @@ export const AllExperiences = [
         "date": "August 2023 - Present",
         "location": "Mountain View, CA",
         "facts": [
-            "Coding monkey"
+            "So many many bugs."
         ]
     },
     {
@@ -14,7 +14,8 @@ export const AllExperiences = [
         "date": "June 2023 - August 2023",
         "location": "San Francisco, CA",
         "facts": [
-            "Doing backend and infra"
+            "Implemented REST API endpoints for a system designed to uniquely identify web devices, prioritizing user privacy by eliminating reliance on device fingerprinting (Java Spring Boot, Docker)",
+            "Wrote automated tests; built Jenkins jobs to create AWS infra and deploy service in a coded manner (YAML, ECS, EC2, ALB)"
         ]
     },
     {
@@ -34,9 +35,8 @@ export const AllExperiences = [
         "date": "January 2023 - May 2023",
         "location": "College Station, TX",
         "facts": [
-            "TA for Problem Solving & Competitive Programming under Dr. John Keyser",
-            "Held weekly office hours, debugging sessions (Python, C++), and led discussions",
-            "Quoted as \"the GOAT TA\" by many students :D"
+            "Supported 90+ students as a TA for a competitive programming class taught under Dr. John Keyser",
+            "Held weekly office hours, debugging sessions (Python, C++), and led discussions; received all positive feedback from student evaluations and quoted as GOAT TA by many :)"
         ]
     },
     {
