@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "The Hard Thing About Hard Things",
+     "date": "January 2024",
+     "link": "https://zhuodannychen.notion.site/The-Hard-Thing-About-Hard-Things-d4480ba6c4964e5e960aa1fee05e4f5d?pvs=4"
+    },
     {"title": "Rich Dad Poor Dad by Robert Kiyosaki",
      "date": "January 2023",
      "link": "https://zhuodannychen.notion.site/Rich-Dad-Poor-Dad-b822d16402c044239baf84c2215ae862?pvs=4"
