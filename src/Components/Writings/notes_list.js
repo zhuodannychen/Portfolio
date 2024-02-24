@@ -1,5 +1,5 @@
 export const Books = [
-    {"title": "The Hard Thing About Hard Things",
+    {"title": "The Hard Thing About Hard Things by Ben Horowitz",
      "date": "January 2024",
      "link": "https://zhuodannychen.notion.site/The-Hard-Thing-About-Hard-Things-d4480ba6c4964e5e960aa1fee05e4f5d?pvs=4"
     },
@@ -42,6 +42,14 @@ export const Books = [
 ]
 
 export const Tech = [
+    {"title": "Cloud Computing",
+     "date": "August 2023",
+     "link": "https://zhuodannychen.notion.site/Cloud-Computing-74265580b5104d0ba97e64d466017fcd?pvs=4"
+    },    
+    {"title": "Foundation of Software Engineering",
+     "date": "August 2023",
+     "link": "https://zhuodannychen.notion.site/Software-Engineering-e693c796091e4c22807791108abd693c?pvs=4"
+    },    
     {"title": "Foundation & Application of Blockchains",
      "date": "January 2023",
      "link": "https://zhuodannychen.notion.site/CSCE-489-Foundations-Applications-of-Blockchains-00bdb6eb8437439cb72d13e928287247?pvs=4"
