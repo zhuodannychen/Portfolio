@@ -1,13 +1,13 @@
 export const AllExperiences = [
-    {
-        "title": "M.S. Software Engineering",
-        "subtitle": "Carnegie Mellon University",
-        "date": "August 2023 - Present",
-        "location": "Mountain View, CA",
-        "facts": [
-            "So many many bugs."
-        ]
-    },
+    // {
+    //     "title": "M.S. Software Engineering",
+    //     "subtitle": "Carnegie Mellon University",
+    //     "date": "August 2023 - Present",
+    //     "location": "Mountain View, CA",
+    //     "facts": [
+    //         "So many many bugs."
+    //     ]
+    // },
     {
         "title": "Software Engineer Intern",
         "subtitle": "Capital One",

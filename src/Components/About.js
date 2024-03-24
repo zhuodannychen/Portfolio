@@ -28,7 +28,7 @@ class About extends Component {
                         <img className="about-picture" src={AboutPortrait} alt=""/>
                     </div>
                     <p className="about-bio" style={{fontFamily: "'Open Sans', sans-serif"}}>
-                        Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), a grad student at Carnegie Mellon studying software engineering.
+                        Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), and
                         I'm very passionate about learning, teaching, and just creating things in general (like this website). 
                         <br />
                         <br />
