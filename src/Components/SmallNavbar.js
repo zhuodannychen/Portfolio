@@ -26,6 +26,7 @@ const SmallNavbar = props => {
         <li className='nav-itm'><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link></li>
         {/* <li className='nav-itm'><ELink className='alinks' to="/notes">NOTES</ELink></li> */}
         <a style={{textDecoration: "none"}} className='nav-itm' href={Resume} rel="noopener noreferrer" target="_blank">RESUME</a>
+        <a style={{textDecoration: "none"}} className='nav-itm' href="https://dannychen.substack.com/" rel="noopener noreferrer" target="_blank">BLOG</a>
       </div>
     </nav>
   );

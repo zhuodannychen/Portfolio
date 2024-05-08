@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "Read Write Own: Building the Next Era of the Internet by Chris Dixon",
+     "date": "April 2024",
+     "link": "https://dannychen.substack.com/p/read-write-own"
+    },
     {"title": "The Hard Thing About Hard Things by Ben Horowitz",
      "date": "January 2024",
      "link": "https://zhuodannychen.notion.site/The-Hard-Thing-About-Hard-Things-d4480ba6c4964e5e960aa1fee05e4f5d?pvs=4"

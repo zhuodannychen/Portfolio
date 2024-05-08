@@ -1,4 +1,13 @@
 export const AllExperiences = [
+    {
+        "title": "Software Engineer",
+        "subtitle": "Meta",
+        "date": "March 2024 - Present",
+        "location": "Menlo Park, CA",
+        "facts": [
+            "Product"
+        ]
+    },
     // {
     //     "title": "M.S. Software Engineering",
     //     "subtitle": "Carnegie Mellon University",
