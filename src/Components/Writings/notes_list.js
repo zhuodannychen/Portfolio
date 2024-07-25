@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "Elon Musk by Walter Isaacson",
+     "date": "July 2024",
+     "link": "https://dannychen.substack.com/p/elon-musk"
+    },
     {"title": "Read Write Own: Building the Next Era of the Internet by Chris Dixon",
      "date": "April 2024",
      "link": "https://dannychen.substack.com/p/read-write-own"
