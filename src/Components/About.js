@@ -32,8 +32,13 @@ class About extends Component {
                         I'm very passionate about learning, teaching, and just creating things in general (like this website). 
                         <br />
                         <br />
-                        I have an interest in artificial intelligence, blockchains, software development, and competitive programming. In the past, I have worked on projects involving web dev, machine learning, and smart contracts.
-                        Other than CS, I enjoy working out, sucking at basketball, dancing, and cooking.
+                        In tech, I have an interest in AI, blockchains, software development, and competitive programming. In the past, I have worked on projects involving web dev, machine learning, and smart contracts.
+                        <br />
+                        <br />
+                        In finance, I enjoy the volatility of stocks, exploring the crypto wild west, learning about the future of money, and just having convos with my friends on the next big thing.
+                        <br />
+                        <br />
+                        In my free time, I enjoy playing pickleball, pondering on long walks, sucking at basketball, dancing (hip hop and breaking), and cooking delicious food!
                     </p>
                 </ScrollAnimation>
 
@@ -45,6 +50,13 @@ class About extends Component {
                         <li>Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Paris <i className="fa fa-arrow-right" aria-hidden="true"/> Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Dallas <i className="fa fa-arrow-right" aria-hidden="true"/> College Station <i className="fa fa-arrow-right" aria-hidden="true"/> Silicon Valley</li>
                         <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I breathe Vim.</li>
                         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
+                    </ul>
+                    <h4>My Current Interests</h4>
+                    <ul>
+                        <li>Blockchains/Crypto</li>
+                        <li>AI applications</li>
+                        <li>Finance</li>
+                        <li>Full-stack dev</li>
                     </ul>
                 </ScrollAnimation>
                 {/*
