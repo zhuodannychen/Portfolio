@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "1984 by George Orwell",
+     "date": "March 2025",
+     "link": "https://zhuodannychen.notion.site/1984-1cc7a07f7c4580ffae72f9cd5bd62ab9?pvs=4"
+    },
     {"title": "Elon Musk by Walter Isaacson",
      "date": "July 2024",
      "link": "https://dannychen.substack.com/p/elon-musk"
