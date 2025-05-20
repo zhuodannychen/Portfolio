@@ -1,4 +1,8 @@
 export const Books = [
+    {"title": "The Bitcoin Standard by Saifedean Ammous",
+     "date": "May 2025",
+     "link": "https://zhuodannychen.notion.site/The-Bitcoin-Standard-1de7a07f7c4580f79442ec86dc86327e"
+    },
     {"title": "1984 by George Orwell",
      "date": "March 2025",
      "link": "https://zhuodannychen.notion.site/1984-1cc7a07f7c4580ffae72f9cd5bd62ab9?pvs=4"
