@@ -10,6 +10,16 @@
 
 # production
 /build
+/out
+
+# Next.js
+/.next
+.next
+
+# IDE and editor files
+/.vscode
+.vscode/
+.idea/
 
 # misc
 .DS_Store
