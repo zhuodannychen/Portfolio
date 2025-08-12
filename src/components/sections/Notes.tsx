@@ -26,7 +26,7 @@ class Notes extends Component<Props> {
       <div className="notes-container container-fluid" id={this.props.id}>
         <h1 className="projects-title">Writings</h1>
         <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "25px"}}/>
-        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "40px", maxWidth: "1200px", margin: "0 auto"}}>
+        <div className="notes-grid">
             <div className="notes-col">
                 <h3>Blog</h3>
                 <ul><li>I sometimes blog on <a href="https://dannychen.substack.com/">substack</a></li></ul>

@@ -12,7 +12,7 @@ const Homepage: React.FC<Props> = ({ id }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isReady, setIsReady] = useState(false);
     
-    const fullText = "I am a software developer and investor.";
+    const fullText = "I am a software developer and trader.";
 
     // Main typewriter effect
     useEffect(() => {

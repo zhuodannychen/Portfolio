@@ -20,7 +20,7 @@ const About: React.FC<Props> = ({ id }) => {
                   <div style={{textAlign: "center", alignItems: "center"}}>
                       <img className="about-picture" src="/danny_chen_2022.png" alt="Danny Chen"/>
                   </div>
-                  <div style={{width: "700px", margin: "0 auto"}}>
+                  <div style={{maxWidth: "100%", margin: "0 auto", padding: "0 20px"}}>
                       <h4>Fun Facts</h4>
                       <ul>
                           <li>Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Paris <i className="fa fa-arrow-right" aria-hidden="true"/> Shenzhen <i className="fa fa-arrow-right" aria-hidden="true"/> Dallas <i className="fa fa-arrow-right" aria-hidden="true"/> College Station <i className="fa fa-arrow-right" aria-hidden="true"/> Silicon Valley</li>
