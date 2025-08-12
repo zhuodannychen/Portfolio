@@ -15,7 +15,7 @@ const Contact: React.FC<Props> = ({ id }) => {
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, offset: 250 }}
+                viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 1.5 }}
             >
                 <h1 className="contact-text" style={{color: "white", fontFamily: 'Work Sans'}}>What's on your mind?</h1>
