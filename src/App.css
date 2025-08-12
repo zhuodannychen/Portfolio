@@ -417,13 +417,38 @@ svg {
     margin: 0 3%;
 }
 
+.notes-col h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
 .notes-col li{
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+}
+
+.notes-col a {
+    color: #1e88e5;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.notes-col a:hover {
+    color: #1565c0;
+    text-decoration: underline;
 }
 
 .notes-col span {
     color: #7d7d7d;
+    font-family: 'Inter', sans-serif;
 }
 
 footer {
