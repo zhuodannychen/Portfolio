@@ -13,9 +13,7 @@ class Projects extends Component<Props> {
                 <h1 className="projects-title">PROJECTS</h1>
                 <hr style={{width: "93px", border: "1.5px solid black"}}></hr>
 
-                <div className="container">
-                    <hr className="separator"/>
-
+                <div className="projects-grid">
                     {projects.map((project) =>
                         <ProjectContainer
                             key={project.title}
