@@ -1,19 +1,3 @@
-declare module 'react-animate-on-scroll' {
-  import { Component } from 'react';
-  
-  interface ScrollAnimationProps {
-    animateIn?: string;
-    animateOut?: string;
-    animateOnce?: boolean;
-    duration?: number;
-    delay?: number;
-    offset?: number;
-    children?: React.ReactNode;
-  }
-  
-  export default class ScrollAnimation extends Component<ScrollAnimationProps> {}
-}
-
 declare module 'react-particles-js' {
   import { Component } from 'react';
   
@@ -24,34 +8,6 @@ declare module 'react-particles-js' {
   }
   
   export default class Particles extends Component<ParticlesProps> {}
-}
-
-declare module 'react-typist' {
-  import { Component } from 'react';
-  
-  interface TypistProps {
-    children?: React.ReactNode;
-    className?: string;
-    avgTypingDelay?: number;
-    stdTypingDelay?: number;
-    startDelay?: number;
-    cursor?: {
-      show?: boolean;
-      blink?: boolean;
-      element?: string;
-      hideWhenDone?: boolean;
-      hideWhenDoneDelay?: number;
-    };
-    onTypingDone?: () => void;
-  }
-  
-  interface DelayProps {
-    ms: number;
-  }
-  
-  export default class Typist extends Component<TypistProps> {
-    static Delay: React.FC<DelayProps>;
-  }
 }
 
 declare module 'react-skillbars' {

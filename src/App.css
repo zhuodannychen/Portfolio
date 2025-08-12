@@ -41,15 +41,14 @@
 }
 
 .nav-itm {
-  display: block;
-  padding: 0 15px;
+  /* display: inline; */
+  margin: 20px;
   color: white;
   transition: 0.3s ease all;
-  font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
-  cursor: pointer;
-  line-height: 50px;
+  letter-spacing: 0.3px;
 }
 
 .nav-items .nav-itm:hover {
@@ -148,16 +147,38 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 }
 
 .homepage-container h1 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: white;
+  margin: 0 0 15px 0;
+  letter-spacing: 1px;
 }
 
 .homepage-container span {
   color: #00acee;
 }
 
-.homepage-container .text-content {
-  padding-top: 17%;
+.homepage-container .homepage-content {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+/* Typewriter text styling */
+.homepage-container .typewriter-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  min-height: 20px;
+  display: block;
+  letter-spacing: 0.8px;
 }
 
 .homepage-container .particles {
@@ -169,16 +190,17 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 }
 
 .homepage-container .more-button {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   width: 200px;
   height: 50px;
-  margin: 30px;
+  margin: 25px 15px 15px 15px;
   padding: 10px;
   border: 3px solid white;
   color: white;
   background: transparent;
   transition: 0.3s ease;
+  letter-spacing: 0.5px;
 }
 
 .homepage-container .more-button:hover {
@@ -187,6 +209,15 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   background: #00acee;
   border: 3px solid #00acee;
   transition: 0.3s ease;
+}
+
+.homepage-container .cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 
 .about-container {
@@ -199,9 +230,10 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   color: black;
   font-size: 55px;
   margin-bottom: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .characteristics-container {
@@ -236,8 +268,9 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   grid-column: 1;
   text-align: center;
   align-items: center;
-  font-family: 'Muli', sans-serif;
-  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   color: black;
   text-decoration: none;
   opacity: 0.8;
@@ -245,6 +278,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   padding: 10px 33px;
   border-radius: 25px;
   transition: 0.3s ease;
+  letter-spacing: 0.3px;
 }
 
 .about-pic-skills-container a:hover {
@@ -256,6 +290,10 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 
 .about-bio {
   margin: 1.3em 5em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
 }
 
 .projects-container {
@@ -277,8 +315,10 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
  
 .project-comp-title {
   margin-bottom: 0;
-  font-family: 'Muli', sans-serif;
-  font-size: 30px;
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 .project-comp-title span {
@@ -287,9 +327,11 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 }
 
 .project-comp-madeWith {
-  font-family: 'Muli', sans-serif;
-  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   color: grey;
+  letter-spacing: 0.3px;
 }
 
 .project-comp-img {
@@ -306,13 +348,16 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
 }
 
 .project-comp-text {
-  font-size: 19px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 .project-comp-links a {
-  font-family: 'Muli', sans-serif;
-  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   text-decoration: none;
   color: black;
   opacity: 0.8;
@@ -321,6 +366,7 @@ background-image: linear-gradient(147deg, #000000 0%, #2D3436 74%);
   border-radius: 20px;
   transition: 0.3s ease;
   margin-left: 50px;
+  letter-spacing: 0.3px;
 }
 
 .project-comp-links a:hover {
@@ -348,13 +394,15 @@ svg {
 }
 
 .contact-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
 
 .contact-text {
-  font-size: 25px;
+  font-size: 23px;
+  font-weight: 300;
 }
 
 .notes-container {
@@ -370,7 +418,8 @@ svg {
 }
 
 .notes-col li{
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .notes-col span {
@@ -473,7 +522,7 @@ footer {
   }
   
   .nav-itm {
-    font-size: 14px;
+    font-size: 15px;
     padding: 15px 20px;
     display: block;
     width: 100%;
@@ -484,13 +533,14 @@ footer {
   .navbar-collapse {
     width: 100%;
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 0;
     background: #111;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
-  .homepage-container .text-content {
-    padding-top: 80px;
+  .homepage-container .homepage-content {
+    padding-top: 60px;
+    min-height: 70vh;
   } 
 
   .homepage-container h1 {
@@ -510,33 +560,45 @@ footer {
   }  
 
   .about-bio {
-      margin: 1.3em 2em;
-  }
+    margin: 1.3em 2em;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.3px;
+}
 
   .project-comp-title {
-    font-size: 20px;
-  } 
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+} 
 
   .project-comp-title span {
-    color: grey;
-    font-size: 15px;
-  } 
+  color: grey;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+} 
 
   .project-comp-madeWith {
-    font-size: 15px;
-  }
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+}
 
   .project-comp-text {
-    font-size: 15px;
-  }
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+}
 
   .separator {
     margin-bottom: 1vh;
   }
 
   .contact-text {
-    font-size: 15px;
-  }
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+}
 
   .social-links {
     width: 80%;
@@ -556,18 +618,24 @@ footer {
   }
 
   .about-title {
-    font-size: 40px;
-  }
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+}
 
   .projects-title {
-    font-size: 40px;
-  }
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+}
 
   .contact-container {
     padding: 1px;
   }
   .contact-title {
-    font-size: 40px;
-  }
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.8px;
+}
 
 }
