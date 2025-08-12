@@ -62,12 +62,8 @@ jobs:
 
       - name: Build with Next.js
         run: yarn build
-
-      - name: Export static files
-        run: yarn export
-        # Note: If your Next.js version is 13.3.0 or newer, the export command is deprecated.
-        # In that case, comment out the line above and ensure your next.config.js has:
-        # output: 'export'
+        # Note: For Next.js 13.3.0+, the build command automatically exports
+        # when output: 'export' is set in next.config.js
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
