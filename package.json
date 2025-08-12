@@ -30,8 +30,7 @@
     "start": "next start",
     "preview": "yarn build && npx serve out",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "export": "next export"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
