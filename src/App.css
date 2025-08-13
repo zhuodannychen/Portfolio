@@ -51,7 +51,29 @@
   letter-spacing: 0.3px;
 }
 
-.nav-items .nav-itm:hover {
+.nav-itm a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.nav-itm a:hover {
+  color: #00acee;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.nav-itm a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items .nav-itm:hover,
+.nav-items .nav-itm a:hover {
   color: #00acee;
   text-decoration: none;
   cursor: pointer;
@@ -96,6 +118,10 @@
   transition: all 0.3s ease;
 }
   
+.nav-toggle {
+    display: none;
+}
+
 .custom-toggler.navbar-toggler {
     border-color: rgb(0,172,238);
     display: none;
@@ -104,6 +130,7 @@
     border-radius: 4px;
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 .navbar-collapse {
@@ -123,7 +150,7 @@
     display: none !important;
   }
   
-  .navbar-collapse:not(.collapse) {
+  .nav-toggle:checked ~ .navbar-collapse.collapse {
     display: block !important;
   }
 } 
@@ -469,6 +496,52 @@ svg {
     padding: 0 20px;
 }
 
+.experiences-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience-item {
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-left: 4px solid #26acc9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-title {
+    margin: 0 0 10px 0;
+    color: #445;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.experience-company {
+    color: #445;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.experience-duration {
+    color: #445;
+    margin: 0 0 15px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.experience-description {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experience-description li {
+    color: #445;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
 .notes-col {
     margin: 0 3%;
 }
@@ -611,6 +684,7 @@ footer {
     width: 100%;
     line-height: 1.2;
     text-align: left;
+    text-decoration: none;
   }
   
   .navbar-collapse {

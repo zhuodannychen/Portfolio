@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from 'framer-motion';
 
 interface Props {
   id?: string;
@@ -11,12 +10,7 @@ const About: React.FC<Props> = ({ id }) => {
       <h1 className="about-title">ABOUT</h1>
       <hr style={{width: "52px", border: "1.5px solid black", marginBottom: "60px"}}/>
           <div className="about-pic-skills-container">
-              <motion.div
-                  initial={{ opacity: 0, x: -50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 1.5 }}
-              >
+              <div>
                   <div style={{textAlign: "center", alignItems: "center"}}>
                       <img className="about-picture" src="/danny_chen_2022.png" alt="Danny Chen"/>
                   </div>
@@ -28,14 +22,9 @@ const About: React.FC<Props> = ({ id }) => {
                           <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
                       </ul>
                   </div>
-              </motion.div>
+              </div>
 
-              <motion.div
-                  initial={{ opacity: 0, x: 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                  transition={{ duration: 1.5 }}
-              >
+              <div>
                   <h4>About Me</h4>
                   <p className="about-bio">
                       Hi! <span role="img" aria-label="wave">👋</span> I'm Danny Chen (陈琢), and
@@ -58,7 +47,7 @@ const About: React.FC<Props> = ({ id }) => {
                       <li>Finance</li>
                       <li>Full-stack dev</li>
                   </ul>
-              </motion.div>
+              </div>
           </div>
     </div>
   )

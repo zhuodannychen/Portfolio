@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'framer-motion';
 
 interface Props {
   project_name: string;
@@ -13,13 +12,7 @@ interface Props {
 
 const ProjectContainer: React.FC<Props> = ({ project_name, project_date, madeWith, project_img, project_body, github_link, demo_link }) => {
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5 }}
-            className="project-card"
-        >
+        <div className="project-card">
             <div className="project-image-container">
                 <img alt="project-img" className="project-comp-img" src={project_img} />
             </div>
@@ -33,7 +26,7 @@ const ProjectContainer: React.FC<Props> = ({ project_name, project_date, madeWit
                 </p>
                 <p className="project-comp-text">{project_body}</p>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

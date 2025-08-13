@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from 'framer-motion';
 
 interface Props {
   id?: string;
@@ -10,13 +9,7 @@ const Footer: React.FC<Props> = ({ id }) => {
         <div className="contact-container" id={id}>
             <footer>
                 <div className="social-links">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true, amount: 0.3 }}
-                        transition={{ duration: 1.5 }}
-                        style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "20px"}}
-                    >
+                    <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "20px"}}>
                         {/*Instagram*/}
                         <div className="c--anim-btn">
                             <a href="https://www.instagram.com/dannychen8432/" rel="noopener noreferrer" target="_blank">
@@ -76,7 +69,7 @@ const Footer: React.FC<Props> = ({ id }) => {
                             </span>
                             </a>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
                 <p style={{color: "white", padding: "10px"}}>Zhuo Chen <span style={{color: "#00acee"}}><i className="far fa-copyright"></i>2020-2023</span></p>
             </footer>
