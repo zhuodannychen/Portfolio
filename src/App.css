@@ -519,19 +519,82 @@ svg {
     padding: 0 20px;
 }
 
-.experiences-timeline {
+.timeline-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
 }
 
-.experience-item {
+.timeline-line {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, #00acee, #26acc9);
+    z-index: 1;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-content {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.experience-card {
     background: white;
-    border-radius: 8px;
-    margin-bottom: 30px;
+    border-radius: 12px;
     padding: 25px;
-    border-left: 4px solid #26acc9;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.experience-card::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: white;
+}
+
+.experience-technologies {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background: #f0f8ff;
+    color: #00acee;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #00acee;
+    transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+    background: #00acee;
+    color: white;
 }
 
 .experience-title {
@@ -720,8 +783,9 @@ footer {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
   .homepage-container .homepage-content {
-    padding-top: 60px;
-    min-height: 70vh;
+    padding-top: 80px;
+    min-height: 85vh;
+    justify-content: flex-start;
   } 
 
   .homepage-container h1 {
@@ -840,5 +904,32 @@ footer {
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.8px;
 }
+
+  /* Timeline mobile responsive styles */
+  .timeline-container {
+    padding: 0 15px;
+  }
+
+  .timeline-line {
+    left: 20px;
+  }
+
+  .timeline-item {
+    margin-bottom: 20px;
+  }
+
+  .timeline-content {
+    padding-left: 35px;
+  }
+
+
+  .experience-technologies {
+    justify-content: flex-start;
+  }
+
+  .tech-tag {
+    font-size: 11px;
+    padding: 3px 8px;
+  }
 
 }
