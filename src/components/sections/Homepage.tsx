@@ -13,8 +13,7 @@ const Homepage: React.FC<Props> = ({ id }) => {
                     </h1>
                     
                     <h6 className="typewriter-text">
-                        I am a software developer and trader.
-                        <span className="cursor">|</span>
+                        <span className="typewriter-content">I am a software developer and trader.<span className="cursor">|</span></span>
                     </h6>
                     
                     <div>

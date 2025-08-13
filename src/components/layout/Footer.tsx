@@ -71,7 +71,7 @@ const Footer: React.FC<Props> = ({ id }) => {
                         </div>
                     </div>
                 </div>
-                <p style={{color: "white", padding: "10px"}}>Zhuo Chen <span style={{color: "#00acee"}}><i className="far fa-copyright"></i>2020-2023</span></p>
+                <p style={{color: "white", padding: "10px"}}>Zhuo Chen <span style={{color: "#00acee"}}><i className="far fa-copyright"></i>2020-2025</span></p>
             </footer>
         </div>
     )
