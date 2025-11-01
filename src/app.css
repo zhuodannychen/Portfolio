@@ -2,12 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-:global(html, body) {
-  margin: 0;
-  padding: 0;
+@layer base {
+  :global(hr) {
+    @apply border-neutral-200;
+  }
+}
+
+:global(html) {
+  @apply motion-safe:scroll-smooth;
+}
+
+:global(body) {
+  @apply py-12 sm:py-24 md:py-32 text-neutral-700 bg-white dark:bg-neutral-900 font-serif;
 }
 
 :global(#app) {
   width: 100%;
   min-height: 100vh;
+}
+
+:global(::selection) {
+  @apply bg-neutral-200 dark:bg-neutral-600;
+}
+
+:global(.dark) {
+  color-scheme: dark;
+}
+
+@layer components {
+  :global(.layout-md) {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
+
+  :global(.link) {
+    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+    @apply hover:text-black hover:decoration-black transition-colors;
+    @apply dark:hover:text-white dark:hover:decoration-white;
+    @apply text-neutral-700 dark:text-neutral-300;
+  }
 }

@@ -1,7 +1,7 @@
 import './app.css';
-import App from './App.svelte';
+import LandingPage from './routes/+page.svelte';
 
-const app = new App({
+const app = new LandingPage({
   target: document.getElementById('app')!,
 });
 
