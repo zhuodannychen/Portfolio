@@ -10,11 +10,14 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
+    "@rollup/plugin-yaml": "^4.1.2",
     "@sveltejs/adapter-auto": "^7.0.0",
     "@sveltejs/kit": "^2.48.4",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tsconfig/svelte": "^5.0.0",
+    "@types/js-yaml": "^4.0.9",
     "autoprefixer": "^10.4.16",
+    "js-yaml": "^4.1.0",
     "lucide-svelte": "^0.294.0",
     "postcss": "^8.4.32",
     "svelte": "^4.2.0",

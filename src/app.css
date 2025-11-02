@@ -15,7 +15,7 @@
   }
 
   .layout-md {
-    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+    @apply max-w-screen-lg mx-auto px-4 sm:px-6;
   }
 
   .heading2 {

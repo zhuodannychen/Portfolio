@@ -6,4 +6,3 @@ const app = new LandingPage({
 });
 
 export default app;
-
