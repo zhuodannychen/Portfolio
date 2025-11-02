@@ -1,8 +1,18 @@
 <script lang="ts">
 </script>
 
-<div class="layout-md w-full pt-12 sm:pt-16 md:pt-20">
-  <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-start justify-center">
+<p
+  class="layout-md text-black text-xl leading-tight font-light mb-16"
+  id="danny-is"
+>
+  <span class="g">is a</span> software engineer<br />
+  and trader.
+</p>
+
+
+<div class="layout-md text-lg space-y-14">
+  <!-- Profile Picture and Interests - Side by Side -->
+  <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
     <!-- Profile Picture - Left Side -->
     <div class="flex-shrink-0">
       <img
@@ -12,20 +22,53 @@
       />
     </div>
 
-    <!-- About Text - Right Side -->
-    <div class="flex-1 max-w-2xl space-y-5 text-lg leading-relaxed">
-      <p class="text-black text-xl leading-tight font-light">
-        Hi! 👋 I'm Danny (陈琢).
-      </p>
-      <p>
-        I am currently a software engineer at <a class="link" href="https://meta.com/">Meta</a> working on the Facebook Lite app. I have long been interested in building products that are impactful and brings people joy.
-      </p>
-      <p>
-        I'm very passionate about learning, teaching, and just creating things in general (like this website).
-        In tech, I have an interest in AI, blockchains, software development, and competitive programming. In the past, I have worked on projects involving web dev, machine learning, and smart contracts.
-        In finance, I enjoy researching on stocks, exploring the crypto wild west, learning about the future of money, and just having convos with my friends on the next big thing.
-        In my free time, I enjoy playing pickleball, pondering on long walks, sucking at basketball, dancing (hip hop and breaking), and cooking delicious food!
-      </p>
+    <!-- Interests Section - Right Side -->
+    <div class="flex-1">
+      <h2 class="text-black text-xl font-semibold mb-4">Interests</h2>
+      <ul class="text-neutral-600 list-disc list-inside">
+        <li>AI</li>
+        <li>Blockchains</li>
+        <li>Finance</li>
+        <li>Full-stack</li>
+      </ul>
     </div>
   </div>
+
+  <!-- Bio Section - Below Profile Pic -->
+  <div class="space-y-5 text-lg leading-relaxed">
+    <p>
+      Hi!👋 I am currently a software engineer at <a class="link" href="https://meta.com/">Meta</a> working on the Facebook Lite app. I have long been interested in building products that are impactful and brings people joy.
+    </p>
+    <p>
+      I'm very passionate about learning, teaching, and just creating things in general (like this website).
+      In tech, I have an interest in AI, blockchains, software development, and competitive programming. In the past, I have worked on projects involving web dev, machine learning, and smart contracts.
+      In finance, I enjoy researching on stocks, exploring the crypto wild west, learning about the future of money, and just having convos with my friends on the next big thing.
+      In my free time, I enjoy playing pickleball, pondering on long walks, sucking at basketball, dancing (hip hop and breaking), and cooking delicious food!
+    </p>
+  </div>
 </div>
+
+<style lang="postcss">
+  .g {
+    @apply text-neutral-400;
+  }
+
+  em {
+    @apply font-serif text-[110%] leading-[100%];
+  }
+
+  .project-pair {
+    @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
+  }
+
+  aside {
+    @apply mt-0.5 text-base text-neutral-500;
+  }
+
+  /* Correction for vertical navigation links on mobile. */
+  @media (max-width: 420px) {
+    #eric-is {
+      @apply -mt-10;
+    }
+  }
+</style>
