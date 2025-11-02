@@ -12,7 +12,6 @@
   .link {
     @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
     @apply hover:text-black hover:decoration-black transition-colors;
-    @apply dark:hover:text-white dark:hover:decoration-white;
   }
 
   .layout-md {
@@ -33,7 +32,7 @@ body {
 }
 
 ::selection {
-  @apply bg-neutral-200 dark:bg-neutral-600;
+  @apply bg-neutral-200;
 }
 
 .dark {

@@ -12,7 +12,7 @@
 
 <div class="layout-md text-lg space-y-14">
   <!-- Profile Picture and Interests - Side by Side -->
-  <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
+  <div class="flex flex-col md:flex-row gap-8 md:gap-24 items-start">
     <!-- Profile Picture - Left Side -->
     <div class="flex-shrink-0">
       <img
@@ -23,13 +23,13 @@
     </div>
 
     <!-- Interests Section - Right Side -->
-    <div class="flex-1">
+    <div class="flex-1 md:pl-20">
       <h2 class="text-black text-xl font-semibold mb-4">Interests</h2>
-      <ul class="text-neutral-600 list-disc list-inside">
+      <ul class="text-neutral-600 list-disc pl-8">
         <li>AI</li>
         <li>Blockchains</li>
-        <li>Finance</li>
         <li>Full-stack</li>
+        <li>Finance</li>
       </ul>
     </div>
   </div>
