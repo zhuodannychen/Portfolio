@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Experience from './Experience.svelte';
+  import Education from './Education.svelte';
+import Experience from './Experience.svelte';
 </script>
 
 <section class="layout-md py-12">
@@ -64,4 +65,33 @@
       Architected serverless backend and created REST API endpoints
     </li>
   </Experience>
+</section>
+
+<section class="layout-md py-12">
+  <h2 class="heading2">Education</h2>
+
+  <Education 
+    school="Texas A&M University"
+    subtitle="B.S. in Computer Science and minor in Economics"
+    dates="August 2020 - May 2023"
+    location="College Station, TX"
+  >
+    <li>GPA: 4.0/4.0, Summa Cum Laude</li>
+    <li>Organizations: Aggie Competitive Programming Club, Aggie Coding Club, TAMU Blockchain Club</li>
+    <li>Relevant Course Work: Networking, Blockchains, Computer Systems, Database System, Machine Learning, AI, Competitive Programming, Programming Languages, Data Structures & Algorithms, Analysis of Algorithms, Multivariable Calculus, Linear Algebra, Probability & Statistics, Financial Markets, Money & Banking</li>
+  </Education>
+
+  <Education 
+    school="Plano West Senior High and Jasper"
+    subtitle="Student"
+    dates="August 2016 - May 2020"
+    location="Plano, TX"
+  >
+    <li>GPA: 4.32, Summa Cum Laude</li>
+    <li>AP Scholar with Distinction</li>
+    <li>Organizations: Computer Science Club, Artificial Intelligence Club, Robotics Club</li>
+    <li>Led teams to win at multiple programming competitions including Lockheed Martin CodeQuest</li>
+    <li>Lectured on advanced algorithms and data-structures that appear frequently in programming contests</li>
+    <li>Planned and judged a regional programming contest with 150+ participants</li>
+  </Education>
 </section>
