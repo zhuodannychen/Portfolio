@@ -11,3 +11,9 @@ declare module '*.yml' {
   const data: any;
   export default data;
 }
+
+declare module '*.md' {
+  const attributes: Record<string, any>;
+  const html: string;
+  export { attributes, html };
+}
