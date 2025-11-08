@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { ArrowRight } from 'lucide-svelte';
 </script>
 
 <p
@@ -12,7 +13,7 @@
 
 <div class="layout-md text-lg space-y-14">
   <!-- Profile Picture and Interests - Side by Side -->
-  <div class="flex flex-col md:flex-row gap-8 md:gap-24 items-start">
+  <div class="flex flex-col md:flex-row gap-8 items-start">
     <!-- Profile Picture - Left Side -->
     <div class="flex-shrink-0">
       <img
@@ -22,14 +23,25 @@
       />
     </div>
 
-    <!-- Interests Section - Right Side -->
-    <div class="flex-1 md:pl-20">
-      <h2 class="text-black text-xl font-semibold mb-4">Interests</h2>
+    <!-- Fun facts Section - Right Side -->
+    <div class="md:pl-8">
+      <h2 class="text-black text-xl font-semibold mb-4">Fun Facts</h2>
       <ul class="text-neutral-600 list-disc pl-8">
-        <li>AI</li>
-        <li>Blockchains</li>
-        <li>Full-stack</li>
-        <li>Finance</li>
+        <li>
+          <span>Shenzhen</span>
+          <ArrowRight size={12} class="inline-block" />
+          <span>Paris</span>
+          <ArrowRight size={12} class="inline-block" />
+          <span>Dallas</span>
+          <ArrowRight size={12} class="inline-block" />
+          <span>College Station</span>
+          <ArrowRight size={12} class="inline-block" />
+          <span>Silicon Valley</span>
+        </li>
+        <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I breathe Vim.</li>
+        <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
+        <li>I can do windmills.</li>
+        <li>Current interests: AI, Bitcoin, full-stack dev</li>
       </ul>
     </div>
   </div>
@@ -37,13 +49,17 @@
   <!-- Bio Section - Below Profile Pic -->
   <div class="space-y-5 text-lg leading-relaxed">
     <p>
-      Hi!👋 I am currently a software engineer at <a class="link" href="https://meta.com/">Meta</a> working on the Facebook Lite app. I have long been interested in building products that are impactful and brings people joy.
+      Hi!👋 I am currently a software engineer at <a class="link" href="https://meta.com/" target="_blank">Meta</a> working on the Facebook Lite app. I love building products that make an impact and bring people joy.
     </p>
     <p>
-      I'm very passionate about learning, teaching, and just creating things in general (like this website).
-      In tech, I have an interest in AI, blockchains, software development, and competitive programming. In the past, I have worked on projects involving web dev, machine learning, and smart contracts.
-      In finance, I enjoy researching on stocks, exploring the crypto wild west, learning about the future of money, and just having convos with my friends on the next big thing.
-      In my free time, I enjoy playing pickleball, pondering on long walks, sucking at basketball, dancing (hip hop and breaking), and cooking delicious food!
+      I'm passionate about learning, teaching, and just creating things in general (like this website). My interest spans across AI, blockchains, software development, and competitive programming.
+      In the past, I have worked on projects involving web dev, mobile dev, machine learning, cloud, and smart contracts.
+    </p>
+    <p>
+      Aside from tech, I'm also into finance -- from researching stocks and exploring the crypto wild west to learning about the future of money and just having convos with my friends on the next big thing.
+    </p>
+    <p>
+      In my free time, I enjoy playing pickleball, <a class="link" href="https://www.instagram.com/danny.vibes.02/" target="_blank">dancing (hip hop and breaking)</a>, pondering on long walks, sucking at basketball, and cooking delicious food!
     </p>
   </div>
 </div>
