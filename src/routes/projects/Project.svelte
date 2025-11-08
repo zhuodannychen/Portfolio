@@ -3,15 +3,16 @@
     html: string;
     attributes: {
       title: string;
-      subtitle?: string;
-      date?: string;
-      image?: string;
-      repo?: string;
-      topics?: string[];
+      subtitle: string;
+      date: string;
+      image: string;
+      repo: string;
+      topics: string[];
     }
   }
 
   export let data: Project;
+  export let images: Record<string, { default: string }>;
 </script>
 
 <h3 class="text-black text-xl font-semibold mb-2">
@@ -32,6 +33,15 @@
       <div class="md-content">
         {@html data.html}
       </div>
+    </div>
+    <div class="col-span-3 md:col-span-1">
+      <a rel="external" href={images[`../../projects/${data.attributes.image}`]?.default}>
+        <img
+          src={images[`../../projects/${data.attributes.image}`]?.default}
+          alt="{data.attributes.title} preview image"
+          class="rounded-md"
+        />
+      </a>
     </div>
   </div>
 </div>

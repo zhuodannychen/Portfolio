@@ -1,8 +1,10 @@
 <script lang="ts">
   import Project from './Project.svelte';
 
-  // Import all markdown files - they now export { html, attributes }
   const projects = import.meta.glob("../../projects/*.md", {
+    eager: true,
+  }) as any;
+  const images = import.meta.glob("../../projects/*.{jpg,png,svg}", {
     eager: true,
   }) as any;
 
@@ -12,13 +14,11 @@
     const dateB = projects[b].date ? new Date(projects[b].date).getTime() : 0;
     return dateB - dateA;
   });
-
-  console.log("projects", projects);
 </script>
 
 <div class="layout-md space-y-12">
   {#each projectsByDate as id (id)}
-    <Project data={projects[id]} />
+    <Project data={projects[id]} {images}/>
   {/each}
 </div>
 
