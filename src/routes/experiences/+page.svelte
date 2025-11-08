@@ -3,7 +3,7 @@
 import Experience from './Experience.svelte';
 </script>
 
-<section class="layout-md py-12">
+<section class="layout-md py-8">
   <h2 class="heading2">Work Experience</h2>
 
   <Experience 
@@ -67,7 +67,7 @@ import Experience from './Experience.svelte';
   </Experience>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-8">
   <h2 class="heading2">Education</h2>
 
   <Education 
@@ -78,7 +78,24 @@ import Experience from './Experience.svelte';
   >
     <li>GPA: 4.0/4.0, Summa Cum Laude</li>
     <li>Organizations: Aggie Competitive Programming Club, Aggie Coding Club, TAMU Blockchain Club</li>
-    <li>Relevant Course Work: Networking, Blockchains, Computer Systems, Database System, Machine Learning, AI, Competitive Programming, Programming Languages, Data Structures & Algorithms, Analysis of Algorithms, Multivariable Calculus, Linear Algebra, Probability & Statistics, Financial Markets, Money & Banking</li>
+    <li>Relevant Coursework</li>
+    <ul class="list-disc pl-7 marker:text-neutral-400 space-y-1">
+      <li>Machine Learning (Graduate)</li>
+      <li>Competitive Programming (TA)</li>
+      <li>Networking</li>
+      <li>Blockchains</li>
+      <li>Computer Systems</li>
+      <li>Database System</li>
+      <li>Artificial Intelligence</li>
+      <li>Programming Languages</li>
+      <li>Data Structures & Algorithms</li>
+      <li>Analysis of Algorithms</li>
+      <li>Multivariable Calculus</li>
+      <li>Linear Algebra</li>
+      <li>Probability & Statistics</li>
+      <li>Financial Markets</li>
+      <li>Money & Banking</li>
+    </ul>
   </Education>
 
   <Education 
@@ -94,4 +111,16 @@ import Experience from './Experience.svelte';
     <li>Lectured on advanced algorithms and data-structures that appear frequently in programming contests</li>
     <li>Planned and judged a regional programming contest with 150+ participants</li>
   </Education>
+</section>
+
+<section class="layout-md py-8">
+  <h2 class="heading2">Awards</h2>
+  <ul class="list-disc pl-7 marker:text-neutral-400 space-y-1">
+    <li>Facebook Hackerrcup Round 2 Qualifier, Top 8% (2021, 2022)</li>
+    <li>12th/52 ICPC Bronze Medal South Central USA (2022)</li>
+    <li>8th/80 TAMU Fall Programming Contest, 2nd in freshmen group (2020)</li>
+    <li>2nd Place CodeQuest Lockheed Martin Fort Worth (2019)</li>
+    <li>2nd Place UTD Battle of the Brains (Spring 2019)</li>
+    <li>1st Place Frozen Eagle Programming Competition (2019)</li>
+  </ul>
 </section>
