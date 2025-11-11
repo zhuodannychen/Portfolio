@@ -19,7 +19,7 @@
 </script>
 
 <header
-  class="layout-md flex justify-between items-start"
+  class="layout-lg flex justify-between items-start"
   data-sveltekit-noscroll
   data-sveltekit-preload-code="eager"
 >

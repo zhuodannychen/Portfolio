@@ -16,7 +16,7 @@
   });
 </script>
 
-<div class="layout-md space-y-12">
+<div class="layout-lg space-y-12">
   {#each projectsByDate as id (id)}
     <Project data={projects[id]} {images}/>
   {/each}

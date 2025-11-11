@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<footer class="layout-md mt-20 text-lg flex flex-col">
+<footer class="layout-lg mt-20 text-lg flex flex-col">
   <div class="row">
     <span>GitHub</span>
     <hr />

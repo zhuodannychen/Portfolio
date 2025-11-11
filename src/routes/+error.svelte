@@ -3,7 +3,7 @@
   import { Bug } from "lucide-svelte";
 </script>
 
-<div class="layout-md">
+<div class="layout-lg">
   <div
     class="pt-14 pb-40 sm:pt-20 sm:pb-80 text-xl flex justify-center items-center"
   >

@@ -3,7 +3,7 @@
 </script>
 
 <p
-  class="layout-md text-black text-xl leading-tight font-light mb-16"
+  class="layout-lg text-black text-xl leading-tight font-light mb-16"
   id="danny-is"
 >
   <span class="g">is a</span> software engineer<br />
@@ -11,7 +11,7 @@
 </p>
 
 
-<div class="layout-md text-lg space-y-14">
+<div class="layout-lg text-lg space-y-14">
   <!-- Profile Picture and Interests - Side by Side -->
   <div class="flex flex-col md:flex-row gap-8 items-start">
     <!-- Profile Picture - Left Side -->

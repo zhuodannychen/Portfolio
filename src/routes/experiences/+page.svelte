@@ -3,7 +3,7 @@
 import Experience from './Experience.svelte';
 </script>
 
-<section class="layout-md py-8">
+<section class="layout-lg py-8">
   <h2 class="heading2">Work Experience</h2>
 
   <Experience 
@@ -67,7 +67,7 @@ import Experience from './Experience.svelte';
   </Experience>
 </section>
 
-<section class="layout-md py-8">
+<section class="layout-lg py-8">
   <h2 class="heading2">Education</h2>
 
   <Education 
@@ -113,7 +113,7 @@ import Experience from './Experience.svelte';
   </Education>
 </section>
 
-<section class="layout-md py-8">
+<section class="layout-lg py-8">
   <h2 class="heading2">Awards</h2>
   <ul class="list-disc pl-7 marker:text-neutral-400 space-y-1">
     <li>Facebook Hackerrcup Round 2 Qualifier, Top 8% (2021, 2022)</li>

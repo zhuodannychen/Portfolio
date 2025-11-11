@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { formatDate } from "$lib/utils";
+
   type Project = {
     html: string;
     attributes: {
@@ -19,7 +21,7 @@
   <span class="mr-1">{data.attributes.title}</span>
   {#if data.attributes.date}
     <small class="whitespace-nowrap text-neutral-500 text-base font-normal">
-      {data.attributes.date}
+      {formatDate(data.attributes.date)}
     </small>
   {/if}
 </h3>

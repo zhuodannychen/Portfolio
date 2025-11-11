@@ -3,7 +3,7 @@
   import writing from "./writings.yaml";
 </script>
 
-<div class="layout-md">
+<div class="layout-lg">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
     <div>
       <h2 class="heading2">Blog</h2>

@@ -14,7 +14,7 @@
     @apply hover:text-black hover:decoration-black transition-colors;
   }
 
-  .layout-md {
+  .layout-lg {
     @apply max-w-screen-lg mx-auto px-4 sm:px-6;
   }
 
