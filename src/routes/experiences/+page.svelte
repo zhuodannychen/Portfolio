@@ -14,7 +14,13 @@ import Experience from './Experience.svelte';
     location="Menlo Park, CA"
   >
     <li>
-      Product Development
+      Product development for Facebook Lite (600M MAU), focusing on Stories, Feed, and Creation.
+    </li>
+    <li>
+      Redesigned the Facebook Lite profile page, delivering a refreshed, streamlined user experience as part of Mark Zuckerberg's company-wide initiative.
+    </li>
+    <li>
+      Implemented video captions, transcripts, and alt-text generation/consumption features for stories, feed, and reels to ensure full compliance with EU accessibility standards.
     </li>
   </Experience>
 
