@@ -1,7 +1,7 @@
 ---
 title: Competitive Programming Solutions
 date: 2020-01-01
-repo: https://github.com/zhuodannychen/Competitive-Programming
+repo: zhuodannychen/Competitive-Programming
 topics: ["Competitive Programming", "Problem Solving", "Kattis"]
 subtitle: Competitive Programming Solutions for Online Judges
 image: competitive-programming.png

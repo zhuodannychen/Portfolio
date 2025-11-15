@@ -1,7 +1,7 @@
 ---
 title: Portfolio Optimization
 date: 2022-11-22
-repo: https://github.com/zhuodannychen/Portfolio-Optimization
+repo: zhuodannychen/Portfolio-Optimization
 topics: ["Python", "Modern Portfolio Theory", "Portfolio Optimization", "Efficient Frontier"]
 subtitle: Exploring the modern portfolio theorem and efficient frontier
 image: portfolio-optimization.png

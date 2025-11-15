@@ -1,7 +1,7 @@
 ---
 title: BRL-CAD 
 date: 2023-05-01
-repo: https://github.com/BRL-CAD/brlcad
+repo: BRL-CAD/brlcad
 topics: ["C++", "Graphics", "CLI tool"]
 subtitle: BRL-CAD CLI tool for transforming CAD models into PDF previews.
 image: brlcad.png

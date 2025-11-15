@@ -1,7 +1,7 @@
 ---
 title: Robomaster
 date: 2021-03-30
-repo: https://github.com/zhuodannychen/Robomaster-ComputerVision
+repo: zhuodannychen/Robomaster-ComputerVision
 topics: ["Computer Vision", "Python"]
 subtitle: Armor plate detection with YOLOv4
 image: robomaster.png

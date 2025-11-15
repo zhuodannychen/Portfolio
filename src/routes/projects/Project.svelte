@@ -1,5 +1,6 @@
 <script lang="ts">
   import { formatDate } from "$lib/utils";
+  import { Star } from 'lucide-svelte';
 
   type Project = {
     html: string;
@@ -15,6 +16,7 @@
 
   export let data: Project;
   export let images: Record<string, { default: string }>;
+  export let stars: Record<string, number>;
 </script>
 
 <div>
@@ -26,6 +28,11 @@
       </small>
     {/if}
     <div class="flex flex-wrap mt-1">
+      {#if stars[data.attributes.repo] !== undefined}
+        <a class="pill" href={`https://github.com/${data.attributes.repo}/stargazers`}>
+          <Star size={14} class="fill-current"/><span class="ml-1">{stars[data.attributes.repo]}</span>
+        </a>
+      {/if}
       {#each data.attributes.topics as pill}
         <div class="pill">{pill}</div>
       {/each}
