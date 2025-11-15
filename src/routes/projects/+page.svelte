@@ -11,8 +11,8 @@
 
   // Sort projects by date (newest first)
   const projectsByDate = Object.keys(projects).sort((a, b) => {
-    const dateA = projects[a].date ? new Date(projects[a].date).getTime() : 0;
-    const dateB = projects[b].date ? new Date(projects[b].date).getTime() : 0;
+    const dateA = projects[a].attributes?.date ? new Date(projects[a].attributes.date).getTime() : 0;
+    const dateB = projects[b].attributes?.date ? new Date(projects[b].attributes.date).getTime() : 0;
     return dateB - dateA;
   });
 
