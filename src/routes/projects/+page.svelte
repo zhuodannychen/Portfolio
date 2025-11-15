@@ -18,19 +18,47 @@
 
   let stars: Record<string, number> = {};
 
-  onMount(async () => {
+  // fetch all personal projects with one API call
+  async function fetchPersonalRepos() {
     try {
       const response = await fetch("https://api.github.com/users/zhuodannychen/repos?per_page=100");
-      if (!response.ok)
-        return null;
-      const personal_repos = await response.json();
-      for (const repo of personal_repos) {
-        stars[repo.full_name] = repo.stargazers_count
+      if (response.ok) {
+        const personalRepos = await response.json();
+        for (const repo of personalRepos) {
+          stars[repo.full_name] = repo.stargazers_count;
+        }
       }
     } catch (error) {
-      console.error(`Failed to fetch stars`, error);
-      return null;
+      console.error(`Failed to fetch personal repos:`, error);
     }
+  }
+
+  async function fetchRepoByFullName(fullName: string) {
+    try {
+      const response = await fetch(`https://api.github.com/repos/${fullName}`);
+      if (response.ok) {
+        const data = await response.json();
+        stars[fullName] = data.stargazers_count;
+      }
+    } catch (error) {
+      console.error(`Failed to fetch stars for ${fullName}:`, error);
+    }
+  }
+
+  // Fetch star counts for any repos not in the personal repos list
+  async function fetchMissingRepos() {
+    for (const id of projectsByDate) {
+      const fullName = projects[id].attributes?.repo;
+      if (!fullName) continue;
+      if (!(fullName in stars)) {
+        await fetchRepoByFullName(fullName);
+      }
+    }
+  }
+
+  onMount(async () => {
+    await fetchPersonalRepos();
+    await fetchMissingRepos();
   });
 </script>
 
