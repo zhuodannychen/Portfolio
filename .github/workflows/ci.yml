@@ -33,14 +33,10 @@ jobs:
       - name: Build Svelte site
         run: npm run build
 
-      # For SvelteKit adapter-static: output is in "build/"
-      # For Vite/Svelte (non-kit): output is in "dist/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            build
-            dist
+          path: build
 
   deploy:
     needs: build

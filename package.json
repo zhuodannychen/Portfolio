@@ -12,6 +12,7 @@
   "devDependencies": {
     "@rollup/plugin-yaml": "^4.1.2",
     "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.48.4",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@tsconfig/svelte": "^5.0.0",

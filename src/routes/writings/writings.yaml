@@ -100,10 +100,6 @@ tech:
     link: https://github.com/zhuodannychen/Competitive-Programming
 
 finance:
-  - title: Crypto Regulation
-    author: Miles Jennings
-    date: November 2023
-    link: /notes/crypto-regulation.pdf
   - title: Financial Markets (Coursera)
     author: Robert Shiller
     date: December 2021
