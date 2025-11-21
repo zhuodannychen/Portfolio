@@ -1,8 +1,14 @@
 <script lang="ts">
   import WritingList from "./WritingList.svelte";
   import writing from "./writings.yaml";
+  import Seo from "$lib/components/Seo.svelte";
 </script>
 
+<Seo
+  title="Danny Chen - Writings"
+  description="Writings by Danny Chen, book notes and tech articles"
+  keywords="Danny Chen, writings, book notes, tech articles"
+/>
 <div class="layout-lg">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
     <div>

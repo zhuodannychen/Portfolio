@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import Project from './Project.svelte';
+  import { onMount } from "svelte";
+  import Project from "./Project.svelte";
+  import Seo from "$lib/components/Seo.svelte";
 
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
@@ -11,8 +12,12 @@
 
   // Sort projects by date (newest first)
   const projectsByDate = Object.keys(projects).sort((a, b) => {
-    const dateA = projects[a].attributes?.date ? new Date(projects[a].attributes.date).getTime() : 0;
-    const dateB = projects[b].attributes?.date ? new Date(projects[b].attributes.date).getTime() : 0;
+    const dateA = projects[a].attributes?.date
+      ? new Date(projects[a].attributes.date).getTime()
+      : 0;
+    const dateB = projects[b].attributes?.date
+      ? new Date(projects[b].attributes.date).getTime()
+      : 0;
     return dateB - dateA;
   });
 
@@ -21,7 +26,9 @@
   // fetch all personal projects with one API call
   async function fetchPersonalRepos() {
     try {
-      const response = await fetch("https://api.github.com/users/zhuodannychen/repos?per_page=100");
+      const response = await fetch(
+        "https://api.github.com/users/zhuodannychen/repos?per_page=100",
+      );
       if (response.ok) {
         const personalRepos = await response.json();
         for (const repo of personalRepos) {
@@ -62,11 +69,13 @@
   });
 </script>
 
+<Seo
+  title="Danny Chen - Projects"
+  description="Open source projects by Danny Chen"
+  keywords="Danny Chen, Projects"
+/>
 <div class="layout-lg space-y-8">
   {#each projectsByDate as id (id)}
-    <Project data={projects[id]} {images} stars={stars}/>
+    <Project data={projects[id]} {images} {stars} />
   {/each}
 </div>
-
-
-
