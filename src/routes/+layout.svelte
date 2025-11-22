@@ -30,9 +30,9 @@
 {#key $page.url.pathname}
   <main
     in:fly={shouldAnimate
-      ? { x: -15, duration: 400, delay: 400 }
+      ? { x: -10, duration: 350, delay: 450 }
       : { duration: 0 }}
-    out:fly={shouldAnimate ? { y: 5, duration: 400 } : { duration: 0 }}
+    out:fly={shouldAnimate ? { y: 5, duration: 350 } : { duration: 0 }}
   >
     <slot />
   </main>
