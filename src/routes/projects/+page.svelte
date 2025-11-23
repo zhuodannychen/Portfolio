@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import Project from "./Project.svelte";
   import Seo from "$lib/components/Seo.svelte";
+  import { Calendar, Star } from "lucide-svelte";
 
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
@@ -10,8 +11,10 @@
     eager: true,
   }) as any;
 
-  // Sort projects by date (newest first)
-  const projectsByDate = Object.keys(projects).sort((a, b) => {
+  let sortBy: "date" | "stars" = "date";
+  let stars: Record<string, number> = {};
+
+  $: projectsByDate = Object.keys(projects).sort((a, b) => {
     const dateA = projects[a].attributes?.date
       ? new Date(projects[a].attributes.date).getTime()
       : 0;
@@ -21,7 +24,11 @@
     return dateB - dateA;
   });
 
-  let stars: Record<string, number> = {};
+  $: projectsByStars = Object.keys(projects).sort((a, b) => {
+    const starsA = stars[projects[a].attributes?.repo] ?? 0;
+    const starsB = stars[projects[b].attributes?.repo] ?? 0;
+    return starsB - starsA;
+  });
 
   // fetch all personal projects with one API call
   async function fetchPersonalRepos() {
@@ -74,8 +81,32 @@
   description="Open source projects by Danny Chen"
   keywords="Danny Chen, Projects"
 />
+
+<div class="flex justify-center mb-4 space-x-2">
+  <button
+    class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
+    'date'
+      ? 'bg-neutral-200 text-neutral-900'
+      : 'text-neutral-500 hover:text-neutral-900'}"
+    on:click={() => (sortBy = "date")}
+  >
+    <Calendar size={14} class="mr-1" />
+    by Date
+  </button>
+  <button
+    class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
+    'stars'
+      ? 'bg-neutral-200 text-neutral-900'
+      : 'text-neutral-500 hover:text-neutral-900'}"
+    on:click={() => (sortBy = "stars")}
+  >
+    <Star size={14} class="mr-1" />
+    by Stars
+  </button>
+</div>
+
 <div class="layout-lg space-y-8">
-  {#each projectsByDate as id (id)}
+  {#each sortBy === "date" ? projectsByDate : projectsByStars as id (id)}
     <Project data={projects[id]} {images} {stars} />
   {/each}
 </div>
