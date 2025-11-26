@@ -20,8 +20,8 @@
     location="Menlo Park, CA"
   >
     <li>
-      Product development for Facebook Lite (600M MAU), focusing on Stories,
-      Feed, and Creation.
+      Product development for Facebook Lite (<strong>400M DAU</strong>),
+      focusing on Stories, Feed, and Creation.
     </li>
     <li>
       Redesigned the Facebook Lite profile page, delivering a refreshed,
@@ -61,8 +61,8 @@
     location="College Station, TX"
   >
     <li>
-      Supported 90+ students as a TA for a competitive programming class taught
-      under Dr. John Keyser
+      Supported <strong>90+</strong> students as a TA for a competitive programming
+      class taught under Dr. John Keyser
     </li>
     <li>
       Held weekly office hours, debugging sessions, and led discussions;
@@ -99,7 +99,7 @@
     dates="August 2020 - May 2023"
     location="College Station, TX"
   >
-    <li>GPA: 4.0/4.0, Summa Cum Laude</li>
+    <li><strong>GPA: 4.0/4.0</strong>, Summa Cum Laude</li>
     <li>
       Organizations: Aggie Competitive Programming Club, Aggie Coding Club, TAMU
       Blockchain Club
@@ -130,7 +130,7 @@
     dates="August 2016 - May 2020"
     location="Plano, TX"
   >
-    <li>GPA: 4.32, Summa Cum Laude</li>
+    <li><strong>GPA: 4.32</strong>, Summa Cum Laude</li>
     <li>AP Scholar with Distinction</li>
     <li>
       Organizations: Computer Science Club, Artificial Intelligence Club,
@@ -153,11 +153,20 @@
 <section class="layout-lg py-8">
   <h2 class="heading2">Awards</h2>
   <ul class="list-disc pl-7 marker:text-neutral-400 space-y-1">
-    <li>Facebook Hackerrcup Round 2 Qualifier, Top 8% (2021, 2022)</li>
-    <li>12th/52 ICPC Bronze Medal South Central USA (2022)</li>
-    <li>8th/80 TAMU Fall Programming Contest, 2nd in freshmen group (2020)</li>
-    <li>2nd Place CodeQuest Lockheed Martin Fort Worth (2019)</li>
-    <li>2nd Place UTD Battle of the Brains (Spring 2019)</li>
-    <li>1st Place Frozen Eagle Programming Competition (2019)</li>
+    <li>
+      Facebook Hackerrcup Round 2 Qualifier, <strong>Top 8%</strong> (2021, 2022)
+    </li>
+    <li><strong>12th/52</strong> ICPC Bronze Medal South Central USA (2022)</li>
+    <li>
+      <strong>8th/80</strong> TAMU Fall Programming Contest, 2nd in freshmen group
+      (2020)
+    </li>
+    <li>
+      <strong>2nd Place</strong> CodeQuest Lockheed Martin Fort Worth (2019)
+    </li>
+    <li><strong>2nd Place</strong> UTD Battle of the Brains (Spring 2019)</li>
+    <li>
+      <strong>1st Place</strong> Frozen Eagle Programming Competition (2019)
+    </li>
   </ul>
 </section>
