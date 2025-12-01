@@ -1,6 +1,13 @@
 <script lang="ts">
-  import { ArrowRight } from 'lucide-svelte';
+  import { ArrowRight } from "lucide-svelte";
+  import Seo from "$lib/components/Seo.svelte";
 </script>
+
+<Seo
+  title="Danny Chen"
+  description="Home page of Danny Chen, a software engineer in the Bay Area"
+  keywords="Danny Chen, Portfolio, Software Engineer"
+/>
 
 <p
   class="layout-lg text-black text-xl leading-tight font-light mb-16"
@@ -9,7 +16,6 @@
   <span class="text-neutral-400">is a</span> software engineer<br />
   <span class="text-neutral-400">and</span> trader.
 </p>
-
 
 <div class="layout-lg text-lg space-y-14">
   <!-- Profile Picture and Interests - Side by Side -->
@@ -38,7 +44,10 @@
           <ArrowRight size={12} class="inline-block" />
           <span>Silicon Valley</span>
         </li>
-        <li>When I first started programming, my friend downloaded Vim in all of my text editors/IDEs... now I breathe Vim.</li>
+        <li>
+          When I first started programming, my friend downloaded Vim in all of
+          my text editors/IDEs... now I breathe Vim.
+        </li>
         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
         <li>I can do windmills.</li>
         <li>Current interests: AI, Bitcoin, full-stack dev</li>
@@ -49,17 +58,32 @@
   <!-- Bio Section - Below Profile Pic -->
   <div class="space-y-5 text-lg leading-relaxed">
     <p>
-      Hi!👋 I am currently a software engineer at <a class="link" href="https://meta.com/" target="_blank">Meta</a> working on the Facebook Lite app. I love building products that make an impact and bring people joy.
+      Hi!👋 I am currently a software engineer at <a
+        class="link"
+        href="https://meta.com/"
+        target="_blank">Meta</a
+      > working on the Facebook Lite app. I love building products that make an impact
+      and bring people joy.
     </p>
     <p>
-      I'm passionate about learning, teaching, and just creating things in general (like this website). My interest spans across AI, blockchains, software development, and competitive programming.
-      In the past, I have worked on projects involving web dev, mobile dev, machine learning, cloud, and smart contracts.
+      I'm passionate about learning, teaching, and just creating things in
+      general (like this website). My interest spans across AI, blockchains,
+      software development, and competitive programming. In the past, I have
+      worked on projects involving web dev, mobile dev, machine learning, cloud,
+      and smart contracts.
     </p>
     <p>
-      Aside from tech, I'm also into finance -- from researching stocks and exploring the crypto wild west to learning about the future of money and just having convos with my friends on the next big thing.
+      Aside from tech, I'm also into finance -- from researching stocks and
+      exploring the crypto wild west to learning about the future of money and
+      just having convos with my friends on the next big thing.
     </p>
     <p>
-      In my free time, I enjoy playing pickleball, <a class="link" href="https://www.instagram.com/danny.vibes.02/" target="_blank">dancing (hip hop and breaking)</a>, pondering on long walks, sucking at basketball, and cooking delicious food!
+      In my free time, I enjoy playing pickleball, <a
+        class="link"
+        href="https://www.instagram.com/danny.vibes.02/"
+        target="_blank">dancing (hip hop and breaking)</a
+      >, pondering on long walks, sucking at basketball, and cooking delicious
+      food!
     </p>
   </div>
 </div>
