@@ -8,6 +8,7 @@
   title="Danny Chen - Writings"
   description="Writings by Danny Chen, book notes and tech articles"
   keywords="Danny Chen, writings, book notes, tech articles"
+  url="https://dannychen.me/writings"
 />
 <div class="layout-lg">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">

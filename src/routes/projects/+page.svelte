@@ -80,6 +80,7 @@
   title="Danny Chen - Projects"
   description="Open source projects by Danny Chen"
   keywords="Danny Chen, Projects"
+  url="https://dannychen.me/projects"
 />
 
 <div class="flex justify-center mb-4 space-x-2">

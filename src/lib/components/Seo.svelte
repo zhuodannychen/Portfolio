@@ -2,9 +2,9 @@
   export let title: string;
   export let description: string;
   export let keywords: string;
+  export let url: string;
 
   const image = "https://dannychen.me/assets/images/profile1.jpg";
-  const url = "https://dannychen.me";
   const type = "website";
 </script>
 

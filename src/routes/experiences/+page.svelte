@@ -8,6 +8,7 @@
   title="Danny Chen - Experiences"
   description="Software engineer and student in the Bay Area."
   keywords="Danny Chen, experiences, software engineer, student"
+  url="https://dannychen.me/experiences"
 />
 <section class="layout-lg py-8">
   <h2 class="heading2">Work Experience</h2>

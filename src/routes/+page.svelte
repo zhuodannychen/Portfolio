@@ -7,6 +7,7 @@
   title="Danny Chen"
   description="Home page of Danny Chen, a software engineer in the Bay Area"
   keywords="Danny Chen, Portfolio, Software Engineer"
+  url="https://dannychen.me"
 />
 
 <p
