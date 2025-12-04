@@ -22,7 +22,7 @@
   <!-- Profile Picture and Interests - Side by Side -->
   <div class="flex flex-col md:flex-row gap-8 items-start">
     <!-- Profile Picture - Left Side -->
-    <div class="flex-shrink-0">
+    <div class="flex-shrink-0 self-center md:self-start">
       <img
         alt="Portrait of Danny Chen"
         src="/assets/images/profile1.jpg"
