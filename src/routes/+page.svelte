@@ -88,3 +88,12 @@
     </p>
   </div>
 </div>
+
+<style lang="postcss">
+  /* Correction for vertical navigation links on mobile. */
+  @media (max-width: 480px) {
+    #danny-is {
+      @apply -mt-10;
+    }
+  }
+</style>
