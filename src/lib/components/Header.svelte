@@ -24,7 +24,7 @@
   data-sveltekit-preload-code="eager"
 >
   <h1 class="font-bold text-black text-2xl mb-6">
-    <a href="/">Danny Chen</a>
+    <a href="/" class="whitespace-nowrap">Danny Chen</a>
     {#if pageTitle}
       <span class="page-title">
         <span class="text-neutral-400">—</span>
@@ -64,7 +64,7 @@
     }
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 480px) {
     nav {
       @apply flex-col items-end space-x-0;
     }
