@@ -10,7 +10,7 @@
   keywords="Danny Chen, writings, book notes, tech articles"
   url="https://dannychen.me/writings"
 />
-<div class="layout-lg">
+<section class="layout-lg py-8">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
     <div>
       <h2 class="heading2">Blog</h2>
@@ -44,4 +44,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

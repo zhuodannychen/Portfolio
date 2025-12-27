@@ -83,31 +83,35 @@
   url="https://dannychen.me/projects"
 />
 
-<div class="flex justify-center mb-4 space-x-2">
-  <button
-    class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
-    'date'
-      ? 'bg-neutral-200 text-neutral-900'
-      : 'text-neutral-500 hover:text-neutral-900'}"
-    on:click={() => (sortBy = "date")}
-  >
-    <Calendar size={14} class="mr-1" />
-    by Date
-  </button>
-  <button
-    class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
-    'stars'
-      ? 'bg-neutral-200 text-neutral-900'
-      : 'text-neutral-500 hover:text-neutral-900'}"
-    on:click={() => (sortBy = "stars")}
-  >
-    <Star size={14} class="mr-1" />
-    by Stars
-  </button>
-</div>
+<section class="layout-lg py-8">
+  <h2 class="heading2">Open Source</h2>
 
-<div class="layout-lg space-y-8">
-  {#each sortBy === "date" ? projectsByDate : projectsByStars as id (id)}
-    <Project data={projects[id]} {images} {stars} />
-  {/each}
-</div>
+  <div class="flex justify-center mb-4 space-x-2">
+    <button
+      class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
+      'date'
+        ? 'bg-neutral-200 text-neutral-900'
+        : 'text-neutral-500 hover:text-neutral-900'}"
+      on:click={() => (sortBy = "date")}
+    >
+      <Calendar size={14} class="mr-1" />
+      by Date
+    </button>
+    <button
+      class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
+      'stars'
+        ? 'bg-neutral-200 text-neutral-900'
+        : 'text-neutral-500 hover:text-neutral-900'}"
+      on:click={() => (sortBy = "stars")}
+    >
+      <Star size={14} class="mr-1" />
+      by Stars
+    </button>
+  </div>
+
+  <div class="space-y-8">
+    {#each sortBy === "date" ? projectsByDate : projectsByStars as id (id)}
+      <Project data={projects[id]} {images} {stars} />
+    {/each}
+  </div>
+</section>
