@@ -14,10 +14,34 @@
   <h2 class="heading2">Work Experience</h2>
 
   <Experience
-    title="Software Engineer"
+    title="Software Engineer | Ads Signals Growth"
     company="Meta"
     url="https://meta.com"
-    dates="March 2024 - Current"
+    dates="February 2026 - Current"
+    location="Menlo Park, CA"
+  >
+    <li>
+      Launched LLM-powered ads signals to help advertisers optimize 
+      campaign performance, unblocking <strong>0.17% iRev ($330M+/year)</strong> and 
+      <a
+        class="link"
+        href="https://www.linkedin.com/posts/alexorig_weve-heard-consistent-feedback-from-advertisers-share-7450187433121509376-kL3w?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN9ZcEBCu4k2ok6tiNwA8ptTnHhSyVsVz8"
+        target="_blank"
+        rel="noreferrer">highlighted</a
+      >
+      by Meta's CMO. Biggest launch of Meta Pixel since 2018. Worked on url encoding data transmission, integrity filters for sensitive data, internal test tools, and metric monitoring.
+    </li>
+    <li>
+      Improved advertiser site URL coverage by optimizing data pipelines that learn URL patterns and map raw URLs into page-key representations, which
+      reduces capacity costs, centralizes site data, and enables a data flywheel for continuous improvement. (Apache Airflow)
+    </li>
+  </Experience>
+
+  <Experience
+    title="Software Engineer | Facebook Lite Product"
+    company="Meta"
+    url="https://meta.com"
+    dates="March 2024 - February 2026"
     location="Menlo Park, CA"
   >
     <li>
@@ -27,12 +51,18 @@
     <li>
       Redesigned the Facebook Lite profile page, delivering a refreshed,
       streamlined user experience as part of Mark Zuckerberg's company-wide
-      initiative.
+      initiative to unlock AI features.
     </li>
     <li>
       Implemented video captions, transcripts, and alt-text
       generation/consumption features for stories, feed, and reels to ensure
       full compliance with EU accessibility standards.
+    </li>
+    <li>
+      Experimented and shipped new features on high traffic surfaces including smart thumbnails, stories, and feed enhancements.
+    </li>
+    <li>
+      Consistently deliver high impact and contribute to topline metrics with GE/EE rating.
     </li>
   </Experience>
 
