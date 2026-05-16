@@ -51,7 +51,7 @@
         </li>
         <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
         <li>I can do windmills.</li>
-        <li>Current interests: AI, Bitcoin, full-stack dev</li>
+        <li>Current interests: AI, AI tooling, Bitcoin</li>
       </ul>
     </div>
   </div>
@@ -63,8 +63,7 @@
         class="link"
         href="https://meta.com/"
         target="_blank">Meta</a
-      > working on the Facebook Lite app. I love building products that make an impact
-      and bring people joy.
+      > working on Meta Pixel (ads signals). I love solving hard problems and building products that make an impact.
     </p>
     <p>
       I'm passionate about learning, teaching, and just creating things in
