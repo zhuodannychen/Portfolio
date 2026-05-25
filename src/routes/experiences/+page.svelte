@@ -35,6 +35,9 @@
       Improved advertiser site URL coverage by optimizing data pipelines that learn URL patterns and map raw URLs into page-key representations, which
       reduces capacity costs, centralizes site data, and enables a data flywheel for continuous improvement. (Apache Airflow)
     </li>
+    <li>
+      Built Wikinet, a 0-1 Claude Code plugin for LLM-generated entity wikis with typed entities/relations, confidence scoring, and lifespan-aware pages; reached <strong>50+</strong> installs, ranking <strong>top 7%</strong> internally at Meta.
+    </li>
   </Experience>
 
   <Experience
