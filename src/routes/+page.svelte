@@ -63,7 +63,12 @@
         class="link"
         href="https://meta.com/"
         target="_blank">Meta</a
-      > working on Meta Pixel (ads signals). I love solving hard problems and building products that make an impact.
+      > working on <a
+        class="link"
+        href="https://www.facebook.com/business/tools/meta-pixel"
+        target="_blank"
+        rel="noreferrer">Meta Pixel</a
+      > (ads signals). I love solving hard problems and building products that make an impact.
     </p>
     <p>
       I'm passionate about learning, teaching, and just creating things in
