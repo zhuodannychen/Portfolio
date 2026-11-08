@@ -9,7 +9,7 @@
   >
     <Bug class="mr-2" />
     <span class="font-medium">{$page.status}</span>
-    <div class="mx-4 h-8 border-l border-black" />
+    <div class="mx-4 h-8 border-l border-black dark:border-white" />
     {$page.error?.message}
   </div>
 </div>

@@ -7,7 +7,7 @@
 
 <div class="my-12">
   <div class="flex justify-between items-end">
-    <h3 class="text-black text-lg">{school}</h3>
+    <h3 class="text-black dark:text-white text-lg">{school}</h3>
     <div class="text-neutral-500 mb-0.5">{dates}</div>
   </div>
   <div class="flex justify-between items-end mb-2">

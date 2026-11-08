@@ -1,6 +1,7 @@
 <script lang="ts">
   import "@fontsource/newsreader/400.css";
   import "@fontsource/newsreader/400-italic.css";
+  import "@fontsource/newsreader/500.css";
   import { fly } from "svelte/transition";
 
   import { onMount } from "svelte";

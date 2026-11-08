@@ -1,39 +1,32 @@
 <script lang="ts">
+  import { Github, Linkedin, Instagram, Mail } from "lucide-svelte";
+
+  const socials = [
+    { label: "GitHub", href: "https://github.com/zhuodannychen", icon: Github },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/zhuodannychen/", icon: Linkedin },
+    { label: "Instagram", href: "https://www.instagram.com/dannychen8432/", icon: Instagram },
+    { label: "Email", href: "mailto:zhuodannychen@gmail.com", icon: Mail },
+  ];
 </script>
 
-<footer class="layout-lg mt-20 text-lg flex flex-col">
-  <div class="row">
-    <span>GitHub</span>
-    <hr />
-    <a class="link" href="https://github.com/zhuodannychen">@zhuodannychen</a>
-  </div>
-  <div class="row">
-    <span>Linkedin</span>
-    <hr />
-    <a class="link" href="https://www.linkedin.com/in/zhuodannychen/">@zhuodannychen</a>
-  </div>
-  <div class="row">
-    <span>Instagram</span>
-    <hr />
-    <a class="link" href="https://www.instagram.com/dannychen8432/">@dannychen8432</a>
-  </div>
-  <div class="row">
-    <span>Email</span>
-    <hr />
-    <a class="link" href="mailto:zhuodannychen@gmail.com">zhuodannychen@gmail.com</a>
+<footer class="layout-lg mt-20">
+  <div
+    class="flex items-center justify-between border-t border-neutral-200 dark:border-neutral-800 pt-6 text-sm text-neutral-400 dark:text-neutral-500"
+  >
+    <span>© {new Date().getFullYear()} Danny Chen</span>
+    <div class="flex items-center gap-5">
+      {#each socials as s}
+        <a
+          href={s.href}
+          aria-label={s.label}
+          title={s.label}
+          target={s.href.startsWith("mailto:") ? undefined : "_blank"}
+          rel="noreferrer"
+          class="hover:text-black dark:hover:text-white transition-colors"
+        >
+          <svelte:component this={s.icon} size={18} />
+        </a>
+      {/each}
+    </div>
   </div>
 </footer>
-
-<style lang="postcss">
-  .row {
-    @apply flex items-center space-x-4;
-  }
-
-  .row span {
-    @apply text-neutral-500;
-  }
-
-  .row hr {
-    @apply w-full mt-0.5 border-neutral-300 border-dotted;
-  }
-</style>

@@ -23,11 +23,11 @@
   data-sveltekit-noscroll
   data-sveltekit-preload-code="eager"
 >
-  <h1 class="font-bold text-black text-2xl mb-6">
+  <h1 class="font-serif font-medium text-black dark:text-white text-3xl mb-10">
     <a href="/" class="whitespace-nowrap">Danny Chen</a>
     {#if pageTitle}
       <span class="page-title">
-        <span class="text-neutral-400">—</span>
+        <span class="text-neutral-400 dark:text-neutral-600">—</span>
         {pageTitle}
       </span>
     {/if}
@@ -36,8 +36,8 @@
     {#each links as link (link)}
       <a
         href={link.href}
-        class="hover:text-black transition-colors"
-        class:text-black={$page.url.pathname === link.href}
+        class="hover:text-black dark:hover:text-white transition-colors"
+        class:active={$page.url.pathname === link.href}
       >
         {link.name}
       </a>
@@ -47,11 +47,15 @@
 
 <style lang="postcss">
   nav {
-    @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
+    @apply flex items-start text-neutral-500 justify-end space-x-5 text-base pt-2.5;
+  }
+
+  nav .active {
+    @apply text-black dark:text-white;
   }
 
   .page-title {
-    @apply font-light;
+    @apply font-light text-neutral-500;
   }
 
   @media (max-width: 580px) {
@@ -65,8 +69,16 @@
   }
 
   @media (max-width: 480px) {
+    header {
+      @apply flex-col mb-10;
+    }
+
+    h1 {
+      @apply mb-1;
+    }
+
     nav {
-      @apply flex-col items-end space-x-0;
+      @apply justify-start pt-0;
     }
   }
 </style>

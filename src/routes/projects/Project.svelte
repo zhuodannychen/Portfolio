@@ -20,7 +20,7 @@
 </script>
 
 <div>
-  <h3 class="text-black text-xl font-semibold mb-2">
+  <h3 class="text-black dark:text-white text-xl font-semibold mb-2">
     <span class="mr-1">{data.attributes.title}</span>
     {#if data.attributes.date}
       <small class="whitespace-nowrap text-neutral-500 text-base font-normal">
@@ -77,6 +77,6 @@
 
   .pill {
     @apply flex items-center text-sm font-medium;
-    @apply px-1.5 py-[1px] mr-1.5 mb-2 bg-neutral-100 rounded-full;
+    @apply px-1.5 py-[1px] mr-1.5 mb-2 bg-neutral-100 dark:bg-neutral-800 rounded-full;
   }
 </style>

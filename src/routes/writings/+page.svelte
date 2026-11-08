@@ -15,11 +15,11 @@
     <div>
       <h2 class="heading2">Blog</h2>
       <ul class="list-disc pl-6">
-        <li class="text-neutral-600">
+        <li class="text-neutral-600 dark:text-neutral-400">
           I sometimes blog on
           <a
             href="https://dannychen.substack.com"
-            class="underline hover:text-neutral-800 transition-colors"
+            class="underline hover:text-neutral-800 dark:hover:text-neutral-100 transition-colors"
             target="_blank"
             rel="noreferrer"
           >

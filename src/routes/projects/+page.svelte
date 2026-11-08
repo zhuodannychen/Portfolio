@@ -90,8 +90,8 @@
     <button
       class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
       'date'
-        ? 'bg-neutral-200 text-neutral-900'
-        : 'text-neutral-500 hover:text-neutral-900'}"
+        ? 'bg-neutral-200 text-neutral-900 dark:bg-neutral-800 dark:text-white'
+        : 'text-neutral-500 hover:text-neutral-900 dark:hover:text-white'}"
       on:click={() => (sortBy = "date")}
     >
       <Calendar size={14} class="mr-1" />
@@ -100,8 +100,8 @@
     <button
       class="flex items-center px-3 py-1 rounded-md text-sm font-medium transition-colors {sortBy ===
       'stars'
-        ? 'bg-neutral-200 text-neutral-900'
-        : 'text-neutral-500 hover:text-neutral-900'}"
+        ? 'bg-neutral-200 text-neutral-900 dark:bg-neutral-800 dark:text-white'
+        : 'text-neutral-500 hover:text-neutral-900 dark:hover:text-white'}"
       on:click={() => (sortBy = "stars")}
     >
       <Star size={14} class="mr-1" />

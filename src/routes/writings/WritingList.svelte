@@ -11,10 +11,10 @@
 
 <ul class="list-disc pl-6 space-y-1">
   {#each data as item}
-    <li class="text-neutral-600">
+    <li class="text-neutral-600 dark:text-neutral-400">
       <a
         href={item.link}
-        class="hover:text-neutral-800 hover:underline transition-colors"
+        class="hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline transition-colors"
         target="_blank"
         rel="noreferrer"
       >

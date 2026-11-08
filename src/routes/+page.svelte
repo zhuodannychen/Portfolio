@@ -1,6 +1,13 @@
 <script lang="ts">
-  import { ArrowRight } from "lucide-svelte";
   import Seo from "$lib/components/Seo.svelte";
+
+  const facts = [
+    "Shenzhen → Paris → Dallas → College Station → Silicon Valley",
+    "A friend installed Vim in all my editors when I first started coding. Now I breathe Vim.",
+    "Fastest 3×3 Rubik's Cube solve: 14.68 seconds",
+    "I can do windmills",
+    "Currently into AI tooling and Bitcoin",
+  ];
 </script>
 
 <Seo
@@ -10,94 +17,60 @@
   url="https://dannychen.me"
 />
 
-<p
-  class="layout-lg text-black text-xl leading-tight font-light mb-16"
-  id="danny-is"
->
-  <span class="text-neutral-400">is a</span> software engineer<br />
-  <span class="text-neutral-400">and</span> trader.
-</p>
-
-<div class="layout-lg text-lg space-y-14">
-  <!-- Profile Picture and Interests - Side by Side -->
-  <div class="flex flex-col md:flex-row gap-8 items-start">
-    <!-- Profile Picture - Left Side -->
-    <div class="flex-shrink-0 self-center md:self-start">
-      <img
-        alt="Portrait of Danny Chen"
-        src="/assets/images/profile1.jpg"
-        class="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-neutral-200 dark:border-neutral-700"
-      />
-    </div>
-
-    <!-- Fun facts Section - Right Side -->
-    <div class="md:pl-8">
-      <h2 class="text-black text-xl font-semibold mb-4">Fun Facts</h2>
-      <ul class="text-neutral-600 list-disc pl-8">
-        <li>
-          <span>Shenzhen</span>
-          <ArrowRight size={12} class="inline-block" />
-          <span>Paris</span>
-          <ArrowRight size={12} class="inline-block" />
-          <span>Dallas</span>
-          <ArrowRight size={12} class="inline-block" />
-          <span>College Station</span>
-          <ArrowRight size={12} class="inline-block" />
-          <span>Silicon Valley</span>
-        </li>
-        <li>
-          When I first started programming, my friend downloaded Vim in all of
-          my text editors/IDEs... now I breathe Vim.
-        </li>
-        <li>My fastest solve-time on a 3x3 Rubik's Cube is 14.68 seconds.</li>
-        <li>I can do windmills.</li>
-        <li>Current interests: AI, AI tooling, Bitcoin</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Bio Section - Below Profile Pic -->
-  <div class="space-y-5 text-lg leading-relaxed">
-    <p>
-      Hi!👋 I am currently a software engineer at <a
-        class="link"
-        href="https://meta.com/"
-        target="_blank">Meta</a
-      > working on <a
+<div class="layout-lg text-lg leading-relaxed">
+  <!-- Intro -->
+  <section class="flex items-center gap-5 mb-10">
+    <img
+      alt="Portrait of Danny Chen"
+      src="/assets/images/profile1.jpg"
+      class="w-20 h-20 rounded-full object-cover flex-shrink-0"
+    />
+    <p class="text-xl leading-snug text-black dark:text-white">
+      Software engineer at
+      <a class="link" href="https://meta.com/" target="_blank" rel="noreferrer"
+        >Meta</a
+      >, building
+      <a
         class="link"
         href="https://www.facebook.com/business/tools/meta-pixel"
         target="_blank"
         rel="noreferrer">Meta Pixel</a
-      > (ads signals). I love solving hard problems and building products that make an impact.
+      >.
+      <span class="text-neutral-500 dark:text-neutral-400">Also a trader.</span>
+    </p>
+  </section>
+
+  <!-- Bio -->
+  <section class="space-y-5 mb-14">
+    <p>
+      I love solving hard problems and building products that make an impact.
+      My interests span AI, blockchains, and competitive programming, and I've
+      shipped across web, mobile, machine learning, cloud, and smart contracts.
+      Outside of tech, I'm into finance: researching stocks, exploring crypto,
+      and thinking about the future of money.
     </p>
     <p>
-      I'm passionate about learning, teaching, and just creating things in
-      general (like this website). My interest spans across AI, blockchains,
-      software development, and competitive programming. In the past, I have
-      worked on projects involving web dev, mobile dev, machine learning, cloud,
-      and smart contracts.
-    </p>
-    <p>
-      Aside from tech, I'm also into finance -- from researching stocks and
-      exploring the crypto wild west to learning about the future of money and
-      just having convos with my friends on the next big thing.
-    </p>
-    <p>
-      In my free time, I enjoy playing pickleball, <a
+      In my free time I play pickleball,
+      <a
         class="link"
         href="https://www.instagram.com/danny.vibes.02/"
-        target="_blank">dancing (hip hop and breaking)</a
-      >, pondering on long walks, sucking at basketball, and cooking delicious
-      food!
+        target="_blank"
+        rel="noreferrer">dance (hip hop and breaking)</a
+      >, take long walks, suck at basketball, and cook.
     </p>
-  </div>
+  </section>
+
+  <!-- Fun facts -->
+  <section>
+    <h2 class="heading2 !text-xl !mb-4">Fun facts</h2>
+    <ul class="space-y-2 text-base text-neutral-500 dark:text-neutral-400">
+      {#each facts as fact}
+        <li class="flex gap-3">
+          <span class="text-neutral-300 dark:text-neutral-600 select-none">—</span>
+          <span>{fact}</span>
+        </li>
+      {/each}
+    </ul>
+  </section>
 </div>
 
-<style lang="postcss">
-  /* Correction for vertical navigation links on mobile. */
-  @media (max-width: 480px) {
-    #danny-is {
-      @apply -mt-10;
-    }
-  }
-</style>
